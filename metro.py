@@ -333,11 +333,11 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
                 critic_est = critic(static, dynamic, args.hidden_size, args.grid_x_max, args.grid_y_max).view(-1)  # ststic+ dynamic + matrix present
 
             if args.method_name == 'RLTD':
-                diff1 =torch.einsum("nb,bn->nb", torch.Tensor(args.w),  ideal-reward_vec).to(device)
+                diff1 =torch.einsum("nb,bn->nb", args.w,  ideal-reward_vec).to(device)
 
                 diff1_max, a = torch.max(diff1,1)
 
-                diff2 =torch.einsum("nb,bn->nb", torch.Tensor(args.w).to(device),  ideal.to(device)- critic_est.unsqueeze(-1))
+                diff2 =torch.einsum("nb,bn->nb", args.w,  ideal- critic_est)
             
 
                 diff2_max, a = torch.max(diff2,1)
@@ -346,7 +346,7 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
 
                 la = torch.dist(reward_vec.to(device),critic_est,p=2)
           
-                cristic_r = torch.sum(torch.Tensor(args.w).to(device).squeeze(0) * critic_est)
+                cristic_r = torch.sum(args.w * critic_est)
 
                 lb = (reward - cristic_r)
                 
@@ -376,7 +376,7 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
 
                 new_reward_vec = torch.Tensor(np.array([reward_od, agent_Ac, radiation_ac]).transpose()).unsqueeze(-1)
                 
-                n_reward =torch.einsum("nb,bn->n", torch.Tensor(args.w), new_reward_vec )
+                n_reward =torch.einsum("nb,bn->n", args.w, new_reward_vec )
                 n_reward = n_reward.to(device)
                 adv_reward = n_reward if n_reward > reward else reward
                 advantage = (adv_reward -critic_est)

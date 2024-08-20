@@ -1277,7 +1277,6 @@ def BuildDict (InterList, graph, new_line, inter_g, ExisLineStri, ExisIndexList,
                         graph[line_full_tensor[i][-1]].append(new_inter)
                         if new_inter not in CheckList and inter_g in graph[line_full_tensor[i][-1]]:
                             graph[line_full_tensor[i][-1]].remove(inter_g)
-                            graph[inter_g].remove(line_full_tensor[i][-1])
 
 
                 else:
