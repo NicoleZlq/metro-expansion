@@ -760,7 +760,7 @@ def agent_exist_line_pair(tour_idx, agent_grid_list, per_line_full_tensor, per_l
             interaction_index_list.append(agent_grid_list[i])
 
         for i in agent_grid_list:
-            if i not in interaction_index_list:
+            if j not in interaction_index_list:
                 for j in per_line_station_list:
                     if j not in interaction_index_list:
                         per_od_pair = []

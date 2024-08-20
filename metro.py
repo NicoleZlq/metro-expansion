@@ -231,8 +231,6 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
     ExisInterList = train_data.ExisIndexList
     ExisLineStri = train_data.ExisLineStri
 
-    # od_index_path = r'/home/weiyu/program/metro_expand_combination/od_index.txt'
-    # od_matirx = metro_vrp.build_od_matrix(grid_num, od_index_path)  #GPU need
     od_matirx = metro_vrp.build_od_matrix1(grid_num, od_index_path)   #CPU need
 
     od_matirx =  od_matirx / torch.max(od_matirx)                     #GPU and CPU need

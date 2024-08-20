@@ -25,7 +25,7 @@ def process_file(input_file_path, output_file_path):
             
             file.write(f"{index1}\t{index2}\t{_}\n")
 
-# 指定输入和输出文件的路径
+# 指定输入和输出文件
 input_file_path = 'E:/UMstudy/Paper manu/part C/Metro-Line/od_index.txt'
 output_file_path = 'E:/UMstudy/Paper manu/part C/Metro-Line/od_index_dyna.txt'
 

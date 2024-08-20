@@ -287,7 +287,7 @@ class DRL4Metro(nn.Module):
         tour_idx, tour_logp = [], []
         max_steps = sequence_size if self.mask_fn is None else station_num_lim
 
-        #if specify_original_station:  # add the initial station index
+      
          #   agent_grids = self.v_to_g_fn(ptr.data[0])
             # ptr = torch.tensor([specify_original_station]).to(device)
             # tour_idx.append(ptr.data.unsqueeze(1))
@@ -350,8 +350,7 @@ class DRL4Metro(nn.Module):
                 # print('####################  trainging')
                 m = torch.distributions.Categorical(probs) 
 
-                # Sometimes an issue with Categorical & sampling on GPU; See:
-                # https://github.com/pemami4911/neural-combinatorial-rl-pytorch/issues/5
+
                 ptr = m.sample()
                 
                 logp = m.log_prob(ptr) #
@@ -391,10 +390,6 @@ class DRL4Metro(nn.Module):
                 dynamic = self.update_fn(dynamic, agent_current_index)   # dynamic.requires_grad = False
                 dynamic_hidden = self.dynamic_encoder(dynamic)
 
-                # if count_num == 1:
-                #     dynamic0 = dynamic.clone()
-
-            # And update the mask so we don't re-visit if we don't need to
             if self.mask_fn is not None:
                 if vector_index_allow.size()[0]:  #[19]
                     mask = self.mask_fn(vector_index_allow).detach()
