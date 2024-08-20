@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 786, in <module>
-    train_vrp(args)
-  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 660, in train_vrp
-    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
-  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 412, in train
-    average_differ = max_differ / train_size
-UnboundLocalError: local variable 'max_differ' referenced before assignment

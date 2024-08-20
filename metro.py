@@ -259,8 +259,6 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
     else:
         initial_direct = None
 
-    # epoch_max = 2000
-
     if args.method_name == "GPI_PD":
         critics = [StateCritic1(5, 1, args.hidden_size).to(device) for _ in range(3)]
         [n_critic.train() for n_critic in critics]
@@ -422,8 +420,6 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
                         "reward/satified OD demand": average_od,
                         "reward/social equity": average_Ac,
                         "reward/radiation accessibility": average_rad,
-                        "loss/critic_loss": critic_loss.item(),
-                        "loss/actor_loss": actor_loss.item(),
                     })
     
         average_reward_list.append(average_reward.half().item())
@@ -457,8 +453,8 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
         end = time.time()
         cost_time = end - start
 
-        print('epoch %d,  actor_loss: %2.4f,  critic_loss: %2.4f, cost_time: %2.4f, best_solution: %s,od: %2.4f, eqity: %2.4f,rad: %2.4f'
-              % (epoch,  actor_loss.item(), critic_loss.item(), cost_time, best_reward.tolist(),average_od, average_Ac, average_rad))
+        print('epoch %d, cost_time: %2.4f, best_solution: %s,od: %2.4f, eqity: %2.4f,rad: %2.4f'
+              % (epoch,  cost_time, best_reward.tolist(),average_od, average_Ac, average_rad))
 
 
         torch.cuda.empty_cache() # reduce memory
@@ -536,19 +532,6 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
 
         write_file.write(to_write)
     write_file.close()
-
-    picture_path = os.path.join(save_dir, 'loss.png')
-
-
-    plt.plot(critic_loss_list, 'o-', label="critic_loss")
-    plt.plot(actor_loss_list, 'o-', label="actor_loss")
-    plt.xlabel('epoches')
-    plt.ylabel('loss')
-    plt.legend(loc='best')
-    plt.savefig(picture_path, dpi=800)
-
-
-
 
 
 
@@ -748,8 +731,7 @@ if __name__ == '__main__':
      parser.add_argument('--station_num_lim', default=45, type=int)  # limit the number of stations in a line
      parser.add_argument('--budget', default=270, type=int)
 
-     # if budget = None, there is no cost limit.
-     # budget example:  default=200, type=int
+
      parser.add_argument('--line_unit_price', default=1.0 , type=float)
      parser.add_argument('--station_price', default=5.0, type=float)
     
@@ -757,12 +739,7 @@ if __name__ == '__main__':
 
 
      parser.add_argument('--log', default=True, type=bool)
-     #example1:  '--dis_lim', default=-1, type=int
-     #            od pairs in reward only consider agent line
-     #example2:  '--dis_lim', default=None
-     #            agent station和existing statio
-     #example3:  '--dis_lim', default=2.0, type=float
-     # #          
+       
      parser.add_argument('--method_name', default='RLTD', metavar='ENVNAME',
                     help='environment to train on: RLWS | RLEU | RLSM | RLTD |GPI_PD|GPI_LS')
      
