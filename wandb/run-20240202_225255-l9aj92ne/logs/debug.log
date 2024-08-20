@@ -1,0 +1,14 @@
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_setup.py:_flush():76] Configure stats pid to 13956
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ASUS\.config\wandb\settings
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_setup.py:_flush():76] Loading settings from D:\Study\MORL\Metro-LINE\wandb\settings
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'metro.py', 'program_abspath': 'D:\\Study\\MORL\\Metro-Line\\metro.py', 'program': 'D:\\Study\\MORL\\Metro-Line\\metro.py'}
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_init.py:_log_setup():524] Logging user logs to D:\Study\MORL\Metro-LINE\wandb\run-20240202_225255-l9aj92ne\logs\debug.log
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_init.py:_log_setup():525] Logging internal logs to D:\Study\MORL\Metro-LINE\wandb\run-20240202_225255-l9aj92ne\logs\debug-internal.log
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_init.py:init():564] calling init triggers
+2024-02-02 22:52:55,418 INFO    MainThread:13956 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'grid_x_max': 29, 'grid_y_max': 29, 'checkpoint': None, 'test': False, 'actor_lr': 0.0005, 'critic_lr': 0.0005, 'max_grad_norm': 2.0, 'batch_size': 1, 'hidden_size': 128, 'dropout': 0.1, 'num_layers': 1, 'train_size': 32, 'exist_line_num': 2, 'epoch_max': 10, 'initial_station': 0, 'first': 1, 'initial_direct': None, 'station_num_lim': 30, 'budget': 210, 'line_unit_price': 1.0, 'station_price': 5.0, 'dis_lim': None, 'log': True, 'method_name': 'RLSM', 'w': array([[[0.5, 0.5, 0. ]]]), 'social_equity': 1, 'factor_weight': 1, 'factor_weight1': 0, 'result_path': 'D:\\Study\\MORL\\Metro-LINE/result/', 'od_index_path': 'D:\\Study\\MORL\\Metro-LINE/od_index.txt', 'path_house': 'D:\\Study\\MORL\\Metro-LINE/index_average_price.txt', 'seed': 1, 'train_data': <metro_vrp.MetroDataset object at 0x000001D4C1468690>, 'reward_fn': <function reward_fn at 0x000001D4C158AB60>}
+2024-02-02 22:52:55,419 INFO    MainThread:13956 [wandb_init.py:init():609] wandb.init() called when a run is still active
+2024-02-02 22:53:09,247 WARNING MsgRouterThr:13956 [router.py:message_loop():77] message_loop has been closed

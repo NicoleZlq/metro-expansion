@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "D:\Study\MORL\Metro-Line\metro.py", line 778, in <module>
+    train_vrp(args)
+  File "D:\Study\MORL\Metro-Line\metro.py", line 651, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "D:\Study\MORL\Metro-Line\metro.py", line 424, in train
+    wandb.log(
+  File "C:\Users\ASUS\.conda\envs\morl\Lib\site-packages\wandb\sdk\wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\.conda\envs\morl\Lib\site-packages\wandb\sdk\wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\.conda\envs\morl\Lib\site-packages\wandb\sdk\wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\.conda\envs\morl\Lib\site-packages\wandb\sdk\wandb_run.py", line 1820, in log
+    self._log(data=data, step=step, commit=commit)
+  File "C:\Users\ASUS\.conda\envs\morl\Lib\site-packages\wandb\sdk\wandb_run.py", line 1595, in _log
+    self._partial_history_callback(data, step, commit)
+  File "C:\Users\ASUS\.conda\envs\morl\Lib\site-packages\wandb\sdk\wandb_run.py", line 1467, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "C:\Users\ASUS\.conda\envs\morl\Lib\site-packages\wandb\sdk\interface\interface.py", line 564, in publish_partial_history
+    partial_history.step.num = step
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object cannot be interpreted as an integer

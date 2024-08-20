@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 792, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 662, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 421, in train
+    "loss/critic_loss": critic_loss.item(),
+RuntimeError: a Tensor with 3 elements cannot be converted to Scalar

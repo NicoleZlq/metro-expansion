@@ -1,0 +1,199 @@
+epoch 0,  actor_loss: 110.4557,  critic_loss: 2349.6550, cost_time: 1.1824, best_solution: 0,od: 5.2725, eqity: 4.3844,rad: 18.1553
+tensor(100, device='cuda:0') tensor([44.4925], device='cuda:0')
+epoch 1,  actor_loss: -256.5347,  critic_loss: 1828.1516, cost_time: 0.2595, best_solution: 0,od: 0.1846, eqity: 0.7950,rad: 6.8686
+epoch 2,  actor_loss: -69.7317,  critic_loss: 1381.1267, cost_time: 0.3407, best_solution: 0,od: 1.7364, eqity: 1.4839,rad: 20.5938
+epoch 3,  actor_loss: -214.9926,  critic_loss: 1133.8931, cost_time: 0.4159, best_solution: 0,od: 0.9754, eqity: 3.3486,rad: 14.9777
+epoch 4,  actor_loss: -63.9788,  critic_loss: 2143.5764, cost_time: 0.4374, best_solution: 0,od: 5.2258, eqity: 4.7210,rad: 23.7715
+tensor([44.4925], device='cuda:0') tensor([44.2232], device='cuda:0')
+epoch 5,  actor_loss: -150.4403,  critic_loss: 429.6711, cost_time: 0.3178, best_solution: 0,od: 1.1505, eqity: 2.7179,rad: 6.8686
+epoch 6,  actor_loss: -1.7043,  critic_loss: 3047.8721, cost_time: 0.3830, best_solution: 0,od: 5.1991, eqity: 6.2729,rad: 34.3734
+tensor([44.2232], device='cuda:0') tensor([42.9817], device='cuda:0')
+epoch 7,  actor_loss: -98.4585,  critic_loss: 1335.9619, cost_time: 0.2699, best_solution: 0,od: 1.6014, eqity: 3.4406,rad: 20.5938
+epoch 8,  actor_loss: -68.9597,  critic_loss: 969.1404, cost_time: 0.3045, best_solution: 0,od: 1.5489, eqity: 4.7748,rad: 14.9777
+epoch 9,  actor_loss: -18.9484,  critic_loss: 1366.2843, cost_time: 0.3389, best_solution: 0,od: 2.6025, eqity: 4.8461,rad: 20.9842
+epoch 10,  actor_loss: -115.6910,  critic_loss: 264.5046, cost_time: 0.2996, best_solution: 0,od: 0.1407, eqity: 1.6324,rad: 6.8686
+epoch 11,  actor_loss: 43.0836,  critic_loss: 3541.3135, cost_time: 0.3327, best_solution: 0,od: 6.6609, eqity: 5.9706,rad: 34.7637
+epoch 12,  actor_loss: -57.2976,  critic_loss: 2465.4905, cost_time: 0.3988, best_solution: 0,od: 4.0154, eqity: 3.8098,rad: 26.2644
+epoch 13,  actor_loss: -161.3120,  critic_loss: 1052.5350, cost_time: 0.4244, best_solution: 0,od: 0.9856, eqity: 3.1517,rad: 14.9777
+epoch 14,  actor_loss: -152.2761,  critic_loss: 1011.6397, cost_time: 0.3211, best_solution: 0,od: 1.0643, eqity: 3.1079,rad: 14.9777
+epoch 15,  actor_loss: -29.0225,  critic_loss: 2318.7820, cost_time: 0.3324, best_solution: 0,od: 4.2116, eqity: 6.3556,rad: 26.2644
+tensor([42.9817], device='cuda:0') tensor([42.9155], device='cuda:0')
+epoch 16,  actor_loss: -139.4828,  critic_loss: 848.4307, cost_time: 0.2711, best_solution: 0,od: 1.1398, eqity: 1.9648,rad: 10.7676
+epoch 17,  actor_loss: -60.9000,  critic_loss: 1574.3979, cost_time: 0.3628, best_solution: 0,od: 4.0879, eqity: 5.7912,rad: 23.0867
+epoch 18,  actor_loss: -189.3413,  critic_loss: 1093.4429, cost_time: 0.3539, best_solution: 0,od: 2.3974, eqity: 3.8000,rad: 14.9777
+epoch 19,  actor_loss: -145.5024,  critic_loss: 2267.0535, cost_time: 0.2826, best_solution: 0,od: 1.9130, eqity: 4.1593,rad: 26.2644
+epoch 20,  actor_loss: 40.0725,  critic_loss: 3011.6448, cost_time: 0.4028, best_solution: 0,od: 7.5852, eqity: 8.3823,rad: 29.4420
+tensor([42.9155], device='cuda:0') tensor([41.2942], device='cuda:0')
+epoch 21,  actor_loss: -93.0876,  critic_loss: 1029.5905, cost_time: 0.2914, best_solution: 0,od: 2.5873, eqity: 4.2007,rad: 13.2605
+epoch 22,  actor_loss: -113.4430,  critic_loss: 1655.7911, cost_time: 0.3569, best_solution: 0,od: 3.7582, eqity: 3.1864,rad: 18.1553
+epoch 23,  actor_loss: -109.6676,  critic_loss: 282.5254, cost_time: 0.2513, best_solution: 0,od: 0.2521, eqity: 1.0233,rad: 6.8686
+epoch 24,  actor_loss: 82.6452,  critic_loss: 1726.2496, cost_time: 0.4362, best_solution: 0,od: 4.2987, eqity: 7.1548,rad: 18.1553
+epoch 25,  actor_loss: 157.0831,  critic_loss: 1066.2242, cost_time: 0.4896, best_solution: 0,od: 2.8211, eqity: 8.4755,rad: 14.9777
+tensor([41.2942], device='cuda:0') tensor([41.2196], device='cuda:0')
+epoch 26,  actor_loss: -83.3273,  critic_loss: 223.7071, cost_time: 0.3292, best_solution: 0,od: 0.3688, eqity: 1.5552,rad: 6.8686
+epoch 27,  actor_loss: 185.4960,  critic_loss: 2559.6279, cost_time: 0.4921, best_solution: 0,od: 9.1176, eqity: 10.8160,rad: 31.1958
+tensor([41.2196], device='cuda:0') tensor([39.3472], device='cuda:0')
+epoch 28,  actor_loss: -89.9368,  critic_loss: 270.7478, cost_time: 0.2706, best_solution: 0,od: 0.5130, eqity: 1.1644,rad: 6.8686
+epoch 29,  actor_loss: -68.0317,  critic_loss: 696.3829, cost_time: 0.3895, best_solution: 0,od: 2.9186, eqity: 3.1295,rad: 13.5890
+epoch 30,  actor_loss: -6.3212,  critic_loss: 702.9366, cost_time: 0.3907, best_solution: 0,od: 3.7637, eqity: 4.9057,rad: 13.5890
+epoch 31,  actor_loss: -83.4844,  critic_loss: 1396.8108, cost_time: 0.3768, best_solution: 0,od: 2.4269, eqity: 2.8713,rad: 21.1204
+epoch 32,  actor_loss: -121.7450,  critic_loss: 222.8729, cost_time: 0.3237, best_solution: 0,od: 0.8206, eqity: 1.3326,rad: 6.8686
+epoch 33,  actor_loss: -81.8788,  critic_loss: 528.5136, cost_time: 0.2799, best_solution: 0,od: 1.0285, eqity: 3.6490,rad: 12.4848
+epoch 34,  actor_loss: 31.5933,  critic_loss: 2466.6982, cost_time: 0.3231, best_solution: 0,od: 6.0105, eqity: 6.2133,rad: 26.2644
+epoch 35,  actor_loss: -83.5482,  critic_loss: 127.3914, cost_time: 0.3543, best_solution: 0,od: 0.7237, eqity: 3.0047,rad: 6.8686
+epoch 36,  actor_loss: 23.4415,  critic_loss: 2537.8333, cost_time: 0.4775, best_solution: 0,od: 4.7655, eqity: 5.5488,rad: 26.2644
+epoch 37,  actor_loss: -1.6460,  critic_loss: 2501.2598, cost_time: 0.3343, best_solution: 0,od: 4.3225, eqity: 4.7362,rad: 26.2644
+epoch 38,  actor_loss: -69.8599,  critic_loss: 546.8036, cost_time: 0.3262, best_solution: 0,od: 0.9368, eqity: 1.9912,rad: 12.4848
+epoch 39,  actor_loss: 82.0227,  critic_loss: 3156.6709, cost_time: 0.4666, best_solution: 0,od: 4.4375, eqity: 7.8336,rad: 34.3734
+epoch 40,  actor_loss: -80.2573,  critic_loss: 200.2752, cost_time: 0.3453, best_solution: 0,od: 0.7880, eqity: 2.6395,rad: 6.8686
+epoch 41,  actor_loss: 70.6022,  critic_loss: 3786.9016, cost_time: 0.4273, best_solution: 0,od: 7.2427, eqity: 8.2995,rad: 37.5511
+epoch 42,  actor_loss: -60.4488,  critic_loss: 928.5715, cost_time: 0.2993, best_solution: 0,od: 1.6216, eqity: 4.0599,rad: 14.9777
+epoch 43,  actor_loss: -132.3343,  critic_loss: 986.5225, cost_time: 0.3721, best_solution: 0,od: 0.8772, eqity: 1.5355,rad: 14.9777
+epoch 44,  actor_loss: -116.6529,  critic_loss: 980.8075, cost_time: 0.2951, best_solution: 0,od: 0.5216, eqity: 0.9076,rad: 14.9777
+epoch 45,  actor_loss: 18.4658,  critic_loss: 2569.6409, cost_time: 0.3411, best_solution: 0,od: 6.1927, eqity: 4.4398,rad: 26.2644
+epoch 46,  actor_loss: -61.2863,  critic_loss: 540.4929, cost_time: 0.3038, best_solution: 0,od: 0.4341, eqity: 1.2164,rad: 12.4848
+epoch 47,  actor_loss: -11.5030,  critic_loss: 965.2926, cost_time: 0.2749, best_solution: 0,od: 1.3777, eqity: 2.5073,rad: 14.9777
+epoch 48,  actor_loss: 82.7337,  critic_loss: 2778.7219, cost_time: 0.4157, best_solution: 0,od: 5.7623, eqity: 5.4875,rad: 31.1958
+epoch 49,  actor_loss: 64.0013,  critic_loss: 76.9534, cost_time: 0.3939, best_solution: 0,od: 1.6880, eqity: 5.8552,rad: 6.8686
+epoch 50,  actor_loss: 24.2778,  critic_loss: 2145.7144, cost_time: 0.3546, best_solution: 0,od: 3.4314, eqity: 4.9423,rad: 28.7029
+epoch 51,  actor_loss: 142.7117,  critic_loss: 2539.4424, cost_time: 0.4031, best_solution: 0,od: 5.9600, eqity: 8.2519,rad: 31.1958
+epoch 52,  actor_loss: -77.9370,  critic_loss: 1259.4891, cost_time: 0.2630, best_solution: 0,od: 1.5428, eqity: 3.0896,rad: 20.5938
+epoch 53,  actor_loss: -163.9041,  critic_loss: 451.0807, cost_time: 0.3289, best_solution: 0,od: 1.3331, eqity: 2.0709,rad: 6.8686
+epoch 54,  actor_loss: -173.5700,  critic_loss: 829.8759, cost_time: 0.3624, best_solution: 0,od: 0.5852, eqity: 2.8325,rad: 12.4848
+epoch 55,  actor_loss: -112.3056,  critic_loss: 1685.4323, cost_time: 0.4218, best_solution: 0,od: 6.0054, eqity: 7.2724,rad: 18.1553
+epoch 56,  actor_loss: -200.6841,  critic_loss: 1647.9136, cost_time: 0.3759, best_solution: 0,od: 2.8698, eqity: 3.5593,rad: 18.1553
+epoch 57,  actor_loss: -144.2180,  critic_loss: 979.1682, cost_time: 0.3557, best_solution: 0,od: 1.2954, eqity: 3.1648,rad: 14.9777
+epoch 58,  actor_loss: -87.3979,  critic_loss: 2249.7800, cost_time: 0.3467, best_solution: 0,od: 2.9215, eqity: 4.9715,rad: 26.2644
+epoch 59,  actor_loss: -50.6642,  critic_loss: 491.5087, cost_time: 0.4102, best_solution: 0,od: 1.3026, eqity: 4.6558,rad: 12.4848
+epoch 60,  actor_loss: -26.0690,  critic_loss: 89.6827, cost_time: 0.3346, best_solution: 0,od: 1.1400, eqity: 3.6869,rad: 6.8686
+epoch 61,  actor_loss: 48.3783,  critic_loss: 1881.4590, cost_time: 0.3036, best_solution: 0,od: 3.8954, eqity: 5.3111,rad: 23.0867
+epoch 62,  actor_loss: -9.9074,  critic_loss: 1025.2023, cost_time: 0.3892, best_solution: 0,od: 0.8645, eqity: 1.8969,rad: 18.1010
+epoch 63,  actor_loss: 131.7512,  critic_loss: 3631.7393, cost_time: 0.4041, best_solution: 0,od: 4.5206, eqity: 6.3679,rad: 34.3734
+epoch 64,  actor_loss: 11.7525,  critic_loss: 1715.8563, cost_time: 0.2685, best_solution: 0,od: 3.6486, eqity: 3.0617,rad: 17.8912
+epoch 65,  actor_loss: 144.1626,  critic_loss: 2599.0513, cost_time: 0.3786, best_solution: 0,od: 4.6462, eqity: 7.9592,rad: 31.1958
+epoch 66,  actor_loss: -0.2698,  critic_loss: 853.5153, cost_time: 0.4240, best_solution: 0,od: 2.6007, eqity: 5.0180,rad: 14.9777
+epoch 67,  actor_loss: -111.0537,  critic_loss: 368.7504, cost_time: 0.3257, best_solution: 0,od: 0.9178, eqity: 2.4456,rad: 6.8686
+epoch 68,  actor_loss: -112.3305,  critic_loss: 1015.6462, cost_time: 0.2494, best_solution: 0,od: 1.6199, eqity: 3.0042,rad: 14.9777
+epoch 69,  actor_loss: -21.2808,  critic_loss: 2487.5005, cost_time: 0.3604, best_solution: 0,od: 7.4155, eqity: 6.7221,rad: 31.8805
+epoch 70,  actor_loss: -118.1666,  critic_loss: 1470.2249, cost_time: 0.3791, best_solution: 0,od: 5.2063, eqity: 5.3486,rad: 23.0867
+epoch 71,  actor_loss: -188.5319,  critic_loss: 2114.6125, cost_time: 0.3555, best_solution: 0,od: 2.2268, eqity: 5.9792,rad: 26.2644
+epoch 72,  actor_loss: -200.4514,  critic_loss: 1368.6230, cost_time: 0.4405, best_solution: 0,od: 6.0463, eqity: 8.1004,rad: 23.0867
+epoch 73,  actor_loss: -176.1470,  critic_loss: 2477.4277, cost_time: 0.3666, best_solution: 0,od: 4.3088, eqity: 6.6065,rad: 34.3734
+epoch 74,  actor_loss: -135.1850,  critic_loss: 898.1094, cost_time: 0.4202, best_solution: 0,od: 5.1772, eqity: 9.0855,rad: 14.9777
+epoch 75,  actor_loss: -213.5688,  critic_loss: 1984.7554, cost_time: 0.3507, best_solution: 0,od: 4.6609, eqity: 4.9826,rad: 31.5861
+epoch 76,  actor_loss: -162.4548,  critic_loss: 1214.4012, cost_time: 0.2987, best_solution: 0,od: 1.3663, eqity: 5.3240,rad: 14.9777
+epoch 77,  actor_loss: -166.9181,  critic_loss: 1659.0776, cost_time: 0.3462, best_solution: 0,od: 3.4165, eqity: 5.7202,rad: 18.1553
+epoch 78,  actor_loss: -160.6038,  critic_loss: 1110.0681, cost_time: 0.2929, best_solution: 0,od: 2.3712, eqity: 2.8224,rad: 14.9777
+epoch 79,  actor_loss: -95.6711,  critic_loss: 349.0587, cost_time: 0.3085, best_solution: 0,od: 1.6156, eqity: 3.0074,rad: 6.8686
+epoch 80,  actor_loss: 28.2086,  critic_loss: 152.1909, cost_time: 0.3342, best_solution: 0,od: 2.4548, eqity: 6.4059,rad: 6.8686
+epoch 81,  actor_loss: 140.9662,  critic_loss: 1847.9270, cost_time: 0.4936, best_solution: 0,od: 5.4089, eqity: 8.5137,rad: 23.4770
+epoch 82,  actor_loss: -38.4162,  critic_loss: 926.7501, cost_time: 0.2726, best_solution: 0,od: 0.9258, eqity: 1.6981,rad: 14.9777
+epoch 83,  actor_loss: 94.8915,  critic_loss: 899.5251, cost_time: 0.3974, best_solution: 0,od: 2.1889, eqity: 7.2102,rad: 14.9777
+epoch 84,  actor_loss: 56.8645,  critic_loss: 1571.0145, cost_time: 0.3850, best_solution: 0,od: 2.7359, eqity: 7.4939,rad: 23.0867
+epoch 85,  actor_loss: -55.2673,  critic_loss: 351.4413, cost_time: 0.3597, best_solution: 0,od: 1.9842, eqity: 5.9981,rad: 6.8686
+epoch 86,  actor_loss: -136.4667,  critic_loss: 1103.1653, cost_time: 0.3157, best_solution: 0,od: 1.1179, eqity: 2.5455,rad: 14.9777
+epoch 87,  actor_loss: -85.2261,  critic_loss: 1606.4048, cost_time: 0.3884, best_solution: 0,od: 3.3592, eqity: 4.1903,rad: 18.1553
+epoch 88,  actor_loss: 7.0128,  critic_loss: 804.0498, cost_time: 0.4044, best_solution: 0,od: 4.2962, eqity: 6.1384,rad: 14.9777
+epoch 89,  actor_loss: -86.0295,  critic_loss: 1574.8362, cost_time: 0.2925, best_solution: 0,od: 1.7613, eqity: 2.7658,rad: 18.1553
+epoch 90,  actor_loss: -117.5088,  critic_loss: 1602.0403, cost_time: 0.3462, best_solution: 0,od: 1.7887, eqity: 1.8804,rad: 18.1553
+epoch 91,  actor_loss: -110.7907,  critic_loss: 921.7959, cost_time: 0.3494, best_solution: 0,od: 0.7282, eqity: 1.9156,rad: 14.9777
+epoch 92,  actor_loss: 85.1139,  critic_loss: 2613.4092, cost_time: 0.3946, best_solution: 0,od: 2.9917, eqity: 7.3828,rad: 31.1958
+epoch 93,  actor_loss: 147.9021,  critic_loss: 4431.3169, cost_time: 0.4134, best_solution: 0,od: 10.1445, eqity: 8.7789,rad: 42.8728
+epoch 94,  actor_loss: -9.2715,  critic_loss: 882.8910, cost_time: 0.3464, best_solution: 0,od: 2.0975, eqity: 4.4685,rad: 14.9777
+epoch 95,  actor_loss: -127.8273,  critic_loss: 852.3392, cost_time: 0.3989, best_solution: 0,od: 2.1177, eqity: 3.4437,rad: 14.7136
+epoch 96,  actor_loss: 90.1507,  critic_loss: 2878.0205, cost_time: 0.4242, best_solution: 0,od: 3.9474, eqity: 8.5158,rad: 34.3734
+epoch 97,  actor_loss: -109.0517,  critic_loss: 1555.4409, cost_time: 0.2574, best_solution: 0,od: 2.7872, eqity: 3.7273,rad: 23.4770
+epoch 98,  actor_loss: -111.1711,  critic_loss: 1091.1470, cost_time: 0.3166, best_solution: 0,od: 3.5237, eqity: 4.0102,rad: 15.3680
+epoch 99,  actor_loss: -167.9887,  critic_loss: 1602.9705, cost_time: 0.3835, best_solution: 0,od: 2.7885, eqity: 4.7440,rad: 18.1553
+epoch 100,  actor_loss: -92.2805,  critic_loss: 916.3480, cost_time: 0.3506, best_solution: 0,od: 3.4250, eqity: 5.4623,rad: 14.9777
+epoch 101,  actor_loss: 34.5390,  critic_loss: 2741.7593, cost_time: 0.4224, best_solution: 0,od: 7.2221, eqity: 8.8183,rad: 34.3734
+epoch 102,  actor_loss: -98.7693,  critic_loss: 227.2973, cost_time: 0.2699, best_solution: 0,od: 0.7083, eqity: 2.8562,rad: 6.8686
+epoch 103,  actor_loss: -44.5544,  critic_loss: 1725.9246, cost_time: 0.3541, best_solution: 0,od: 3.5011, eqity: 4.0975,rad: 21.7198
+epoch 104,  actor_loss: 21.2700,  critic_loss: 1614.9495, cost_time: 0.4314, best_solution: 0,od: 4.4326, eqity: 6.9631,rad: 23.0867
+epoch 105,  actor_loss: -108.2004,  critic_loss: 902.1161, cost_time: 0.3456, best_solution: 0,od: 1.0250, eqity: 1.4361,rad: 14.9777
+epoch 106,  actor_loss: -26.2383,  critic_loss: 2552.6143, cost_time: 0.4175, best_solution: 0,od: 3.8007, eqity: 5.7364,rad: 31.8805
+epoch 107,  actor_loss: -27.8030,  critic_loss: 954.5544, cost_time: 0.3736, best_solution: 0,od: 2.2432, eqity: 5.8026,rad: 18.5422
+epoch 108,  actor_loss: -23.3565,  critic_loss: 894.8052, cost_time: 0.3374, best_solution: 0,od: 2.8772, eqity: 5.3982,rad: 14.9777
+epoch 109,  actor_loss: -56.2374,  critic_loss: 762.7047, cost_time: 0.3746, best_solution: 0,od: 3.4601, eqity: 6.7751,rad: 14.9777
+epoch 110,  actor_loss: -95.4794,  critic_loss: 264.2754, cost_time: 0.3383, best_solution: 0,od: 0.8083, eqity: 3.9237,rad: 6.8686
+epoch 111,  actor_loss: 2.2054,  critic_loss: 2127.1990, cost_time: 0.4620, best_solution: 0,od: 4.2218, eqity: 7.2792,rad: 31.1958
+epoch 112,  actor_loss: -110.1486,  critic_loss: 837.8860, cost_time: 0.3344, best_solution: 0,od: 1.5668, eqity: 1.9444,rad: 18.1010
+epoch 113,  actor_loss: 14.2771,  critic_loss: 1169.5409, cost_time: 0.3891, best_solution: 0,od: 2.3784, eqity: 6.2201,rad: 20.5938
+epoch 114,  actor_loss: 14.2750,  critic_loss: 1164.8269, cost_time: 0.4219, best_solution: 0,od: 4.0929, eqity: 6.3187,rad: 20.5938
+epoch 115,  actor_loss: -103.1798,  critic_loss: 1824.7936, cost_time: 0.3414, best_solution: 0,od: 2.2467, eqity: 3.8426,rad: 28.7029
+epoch 116,  actor_loss: -80.2168,  critic_loss: 2763.2615, cost_time: 0.3974, best_solution: 0,od: 7.0265, eqity: 6.1126,rad: 29.4420
+epoch 117,  actor_loss: -84.9596,  critic_loss: 1092.4377, cost_time: 0.4020, best_solution: 0,od: 3.9089, eqity: 8.4509,rad: 20.5938
+epoch 118,  actor_loss: -219.2494,  critic_loss: 941.6034, cost_time: 0.4302, best_solution: 0,od: 5.2366, eqity: 6.0729,rad: 14.9777
+epoch 119,  actor_loss: -257.9005,  critic_loss: 1529.6344, cost_time: 0.3006, best_solution: 0,od: 3.3129, eqity: 3.9941,rad: 23.0867
+epoch 120,  actor_loss: -206.1862,  critic_loss: 2346.9507, cost_time: 0.4055, best_solution: 0,od: 6.3122, eqity: 6.7806,rad: 34.7637
+epoch 121,  actor_loss: -190.7425,  critic_loss: 1204.5265, cost_time: 0.3546, best_solution: 0,od: 2.2833, eqity: 5.6481,rad: 14.9777
+epoch 122,  actor_loss: -210.6903,  critic_loss: 2043.5778, cost_time: 0.3308, best_solution: 0,od: 4.1412, eqity: 3.8163,rad: 26.2644
+epoch 123,  actor_loss: -163.8086,  critic_loss: 934.7926, cost_time: 0.3474, best_solution: 0,od: 2.6185, eqity: 5.8408,rad: 14.9777
+epoch 124,  actor_loss: -142.6881,  critic_loss: 1995.0321, cost_time: 0.3116, best_solution: 0,od: 2.3323, eqity: 4.0542,rad: 31.1958
+epoch 125,  actor_loss: -121.6225,  critic_loss: 1101.9598, cost_time: 0.4007, best_solution: 0,od: 2.4590, eqity: 4.6514,rad: 20.5938
+epoch 126,  actor_loss: -145.7424,  critic_loss: 1532.8444, cost_time: 0.3621, best_solution: 0,od: 1.2200, eqity: 2.0702,rad: 23.0867
+epoch 127,  actor_loss: -88.4497,  critic_loss: 1469.9287, cost_time: 0.3303, best_solution: 0,od: 4.3244, eqity: 4.1218,rad: 23.0867
+epoch 128,  actor_loss: -17.4906,  critic_loss: 1410.3523, cost_time: 0.3676, best_solution: 0,od: 3.7877, eqity: 7.7329,rad: 23.0867
+epoch 129,  actor_loss: -67.6301,  critic_loss: 2477.8035, cost_time: 0.4056, best_solution: 0,od: 5.5462, eqity: 7.3555,rad: 34.3734
+epoch 130,  actor_loss: -148.6897,  critic_loss: 1874.9875, cost_time: 0.3520, best_solution: 0,od: 4.3211, eqity: 5.8533,rad: 31.1958
+epoch 131,  actor_loss: -199.2689,  critic_loss: 1330.3241, cost_time: 0.3853, best_solution: 0,od: 7.3666, eqity: 7.1265,rad: 26.7365
+epoch 132,  actor_loss: -289.7829,  critic_loss: 1837.3300, cost_time: 0.3735, best_solution: 0,od: 6.0479, eqity: 6.6817,rad: 31.5861
+epoch 133,  actor_loss: -364.4578,  critic_loss: 1754.1697, cost_time: 0.3683, best_solution: 0,od: 1.3438, eqity: 5.3144,rad: 14.9777
+epoch 134,  actor_loss: -299.8681,  critic_loss: 1676.2521, cost_time: 0.4539, best_solution: 0,od: 3.8098, eqity: 5.6779,rad: 23.0867
+epoch 135,  actor_loss: -200.7445,  critic_loss: 2235.2200, cost_time: 0.3856, best_solution: 0,od: 5.9625, eqity: 7.7247,rad: 34.3734
+epoch 136,  actor_loss: -191.4385,  critic_loss: 1762.9565, cost_time: 0.2661, best_solution: 0,od: 3.2484, eqity: 4.1180,rad: 18.1553
+epoch 137,  actor_loss: -228.5231,  critic_loss: 1247.0111, cost_time: 0.3798, best_solution: 0,od: 2.1511, eqity: 3.7845,rad: 20.5938
+epoch 138,  actor_loss: -29.8471,  critic_loss: 2421.3677, cost_time: 0.4220, best_solution: 0,od: 7.7357, eqity: 8.4097,rad: 34.3734
+epoch 139,  actor_loss: -73.9232,  critic_loss: 262.2230, cost_time: 0.3829, best_solution: 0,od: 1.7388, eqity: 5.5122,rad: 6.8686
+epoch 140,  actor_loss: -11.2214,  critic_loss: 3098.6865, cost_time: 0.3655, best_solution: 0,od: 6.3674, eqity: 6.2333,rad: 35.0582
+epoch 141,  actor_loss: -75.9836,  critic_loss: 828.7878, cost_time: 0.3631, best_solution: 0,od: 1.2175, eqity: 3.5465,rad: 14.9777
+epoch 142,  actor_loss: -68.2235,  critic_loss: 831.9475, cost_time: 0.3687, best_solution: 0,od: 1.2370, eqity: 2.9867,rad: 14.9777
+epoch 143,  actor_loss: 81.2640,  critic_loss: 1664.3265, cost_time: 0.4500, best_solution: 0,od: 5.0827, eqity: 7.0716,rad: 23.0867
+epoch 144,  actor_loss: 91.3026,  critic_loss: 1603.2534, cost_time: 0.4877, best_solution: 0,od: 7.4583, eqity: 8.7574,rad: 23.0867
+epoch 145,  actor_loss: -106.5005,  critic_loss: 842.4361, cost_time: 0.2886, best_solution: 0,od: 1.4473, eqity: 2.9140,rad: 14.9777
+epoch 146,  actor_loss: -40.3571,  critic_loss: 2050.5789, cost_time: 0.3838, best_solution: 0,od: 4.1829, eqity: 6.8354,rad: 26.2644
+epoch 147,  actor_loss: -61.4220,  critic_loss: 807.1279, cost_time: 0.3585, best_solution: 0,od: 3.9735, eqity: 7.2056,rad: 19.2051
+epoch 148,  actor_loss: -213.5653,  critic_loss: 1762.8224, cost_time: 0.3797, best_solution: 0,od: 2.9503, eqity: 2.0708,rad: 23.7715
+epoch 149,  actor_loss: -219.8490,  critic_loss: 1065.5809, cost_time: 0.4060, best_solution: 0,od: 1.5714, eqity: 2.6948,rad: 14.9777
+epoch 150,  actor_loss: -107.4567,  critic_loss: 2390.0874, cost_time: 0.4011, best_solution: 0,od: 5.0389, eqity: 6.5967,rad: 34.3734
+epoch 151,  actor_loss: -124.5766,  critic_loss: 957.5317, cost_time: 0.3361, best_solution: 0,od: 2.8708, eqity: 4.9618,rad: 14.9777
+epoch 152,  actor_loss: -128.2790,  critic_loss: 992.6858, cost_time: 0.3583, best_solution: 0,od: 2.5801, eqity: 4.5359,rad: 14.9777
+epoch 153,  actor_loss: -87.4680,  critic_loss: 869.0073, cost_time: 0.2767, best_solution: 0,od: 2.3014, eqity: 3.3570,rad: 14.9777
+epoch 154,  actor_loss: -46.6568,  critic_loss: 1381.0962, cost_time: 0.3940, best_solution: 0,od: 5.0147, eqity: 6.0679,rad: 23.0867
+epoch 155,  actor_loss: -68.6810,  critic_loss: 823.7206, cost_time: 0.2911, best_solution: 0,od: 1.4477, eqity: 3.2161,rad: 14.9777
+epoch 156,  actor_loss: 134.7856,  critic_loss: 3749.8906, cost_time: 0.4465, best_solution: 0,od: 9.4429, eqity: 8.6120,rad: 37.5511
+epoch 157,  actor_loss: -20.2341,  critic_loss: 816.4320, cost_time: 0.4270, best_solution: 0,od: 2.9915, eqity: 4.7020,rad: 14.9777
+epoch 158,  actor_loss: 84.4807,  critic_loss: 1511.0372, cost_time: 0.4234, best_solution: 0,od: 6.4611, eqity: 8.2074,rad: 18.1553
+epoch 159,  actor_loss: 72.1918,  critic_loss: 3298.6621, cost_time: 0.4085, best_solution: 0,od: 8.3378, eqity: 10.1793,rad: 42.4825
+epoch 160,  actor_loss: 2.1634,  critic_loss: 1933.1309, cost_time: 0.4333, best_solution: 0,od: 7.1494, eqity: 8.7573,rad: 31.1958
+epoch 161,  actor_loss: -210.8583,  critic_loss: 1028.3911, cost_time: 0.3523, best_solution: 0,od: 1.0564, eqity: 3.2111,rad: 14.9777
+epoch 162,  actor_loss: -229.5999,  critic_loss: 997.8735, cost_time: 0.2767, best_solution: 0,od: 0.1375, eqity: 1.1205,rad: 5.1515
+epoch 163,  actor_loss: -176.7520,  critic_loss: 1678.3350, cost_time: 0.4767, best_solution: 0,od: 5.7818, eqity: 7.7155,rad: 31.1958
+epoch 164,  actor_loss: -196.6458,  critic_loss: 596.3096, cost_time: 0.4221, best_solution: 0,od: 6.1976, eqity: 7.6951,rad: 6.8686
+epoch 165,  actor_loss: -196.9530,  critic_loss: 1729.2373, cost_time: 0.3846, best_solution: 0,od: 3.7376, eqity: 5.3937,rad: 18.1553
+epoch 166,  actor_loss: -161.7661,  critic_loss: 808.9334, cost_time: 0.3488, best_solution: 0,od: 2.0334, eqity: 5.9225,rad: 6.8686
+epoch 167,  actor_loss: -74.6930,  critic_loss: 1764.5153, cost_time: 0.4589, best_solution: 0,od: 9.4003, eqity: 9.1214,rad: 26.2644
+epoch 168,  actor_loss: -35.7376,  critic_loss: 1184.0225, cost_time: 0.4298, best_solution: 0,od: 8.4444, eqity: 10.5630,rad: 23.0867
+epoch 169,  actor_loss: -119.7812,  critic_loss: 1250.8634, cost_time: 0.2984, best_solution: 0,od: 3.4864, eqity: 4.2633,rad: 13.2605
+epoch 170,  actor_loss: -68.4144,  critic_loss: 1874.1188, cost_time: 0.4463, best_solution: 0,od: 7.9259, eqity: 9.7428,rad: 26.2644
+epoch 171,  actor_loss: -145.5813,  critic_loss: 1861.8596, cost_time: 0.4300, best_solution: 0,od: 5.0515, eqity: 7.3078,rad: 26.2644
+epoch 172,  actor_loss: -166.7189,  critic_loss: 1419.9895, cost_time: 0.4590, best_solution: 0,od: 5.4613, eqity: 6.6883,rad: 28.7029
+epoch 173,  actor_loss: -168.5920,  critic_loss: 982.8236, cost_time: 0.4204, best_solution: 0,od: 2.7351, eqity: 6.9487,rad: 14.9777
+epoch 174,  actor_loss: -200.3345,  critic_loss: 1157.2642, cost_time: 0.3742, best_solution: 0,od: 4.7829, eqity: 5.3867,rad: 21.6980
+epoch 175,  actor_loss: -110.7634,  critic_loss: 686.9088, cost_time: 0.3115, best_solution: 0,od: 4.1564, eqity: 5.4354,rad: 12.4848
+epoch 176,  actor_loss: -147.3685,  critic_loss: 638.6340, cost_time: 0.3424, best_solution: 0,od: 1.0223, eqity: 4.3811,rad: 12.4848
+epoch 177,  actor_loss: -102.4203,  critic_loss: 1696.5802, cost_time: 0.3278, best_solution: 0,od: 4.4121, eqity: 3.9921,rad: 23.7715
+epoch 178,  actor_loss: -77.3323,  critic_loss: 1021.5491, cost_time: 0.3717, best_solution: 0,od: 4.6975, eqity: 5.3396,rad: 20.5938
+epoch 179,  actor_loss: -114.2717,  critic_loss: 816.2323, cost_time: 0.3023, best_solution: 0,od: 2.3642, eqity: 2.1499,rad: 14.9777
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 799, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 669, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 443, in train
+    actor_loss.backward()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

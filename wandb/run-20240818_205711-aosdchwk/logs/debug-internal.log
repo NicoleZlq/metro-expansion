@@ -1,0 +1,198 @@
+2024-08-18 20:57:11,853 INFO    StreamThr :3948135 [internal.py:wandb_internal():86] W&B internal server running at pid: 3948135, started at: 2024-08-18 20:57:11.852993
+2024-08-18 20:57:11,855 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: status
+2024-08-18 20:57:11,857 INFO    WriterThread:3948135 [datastore.py:open_for_write():85] open: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/run-aosdchwk.wandb
+2024-08-18 20:57:11,858 DEBUG   SenderThread:3948135 [sender.py:send():382] send: header
+2024-08-18 20:57:11,859 DEBUG   SenderThread:3948135 [sender.py:send():382] send: run
+2024-08-18 20:57:12,353 INFO    SenderThread:3948135 [dir_watcher.py:__init__():211] watching files in: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files
+2024-08-18 20:57:12,353 INFO    SenderThread:3948135 [sender.py:_start_run_threads():1136] run started: aosdchwk with start time 1723985831.852679
+2024-08-18 20:57:12,362 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: check_version
+2024-08-18 20:57:12,363 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: check_version
+2024-08-18 20:57:12,446 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: run_start
+2024-08-18 20:57:12,452 DEBUG   HandlerThread:3948135 [system_info.py:__init__():32] System info init
+2024-08-18 20:57:12,452 DEBUG   HandlerThread:3948135 [system_info.py:__init__():47] System info init done
+2024-08-18 20:57:12,452 INFO    HandlerThread:3948135 [system_monitor.py:start():194] Starting system monitor
+2024-08-18 20:57:12,452 INFO    SystemMonitor:3948135 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-18 20:57:12,453 INFO    HandlerThread:3948135 [system_monitor.py:probe():214] Collecting system info
+2024-08-18 20:57:12,453 INFO    SystemMonitor:3948135 [interfaces.py:start():190] Started cpu monitoring
+2024-08-18 20:57:12,454 INFO    SystemMonitor:3948135 [interfaces.py:start():190] Started disk monitoring
+2024-08-18 20:57:12,455 INFO    SystemMonitor:3948135 [interfaces.py:start():190] Started gpu monitoring
+2024-08-18 20:57:12,456 INFO    SystemMonitor:3948135 [interfaces.py:start():190] Started memory monitoring
+2024-08-18 20:57:12,457 INFO    SystemMonitor:3948135 [interfaces.py:start():190] Started network monitoring
+2024-08-18 20:57:12,468 DEBUG   HandlerThread:3948135 [system_info.py:probe():196] Probing system
+2024-08-18 20:57:12,470 DEBUG   HandlerThread:3948135 [system_info.py:_probe_git():181] Probing git
+2024-08-18 20:57:12,476 DEBUG   HandlerThread:3948135 [system_info.py:_probe_git():189] Probing git done
+2024-08-18 20:57:12,476 DEBUG   HandlerThread:3948135 [system_info.py:probe():244] Probing system done
+2024-08-18 20:57:12,477 DEBUG   HandlerThread:3948135 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2024-08-18T12:57:12.468978', 'startedAt': '2024-08-18T12:57:11.848033', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/liqing/MORL/Metro-Line/metro.py', 'codePathLocal': 'metro.py', 'codePath': 'metro.py', 'git': {'remote': 'git@github.com:NicoleZlq/Metro-Line.git', 'commit': 'e34b80c67713bdcc46379b94e742a45ed55a5312'}, 'email': 'um.zhangliqing@gmail.com', 'root': '/home/liqing/MORL/Metro-Line', 'host': 'lambda-dual', 'username': 'liqing', 'executable': '/home/liqing/anaconda3/envs/morl/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2.378833333333335, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 3.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.122, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 3.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 4.263, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 3.282, 'min': 2200.0, 'max': 3800.0}, {'current': 3.44, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 158.7169189453125}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 125.63375473022461}}
+2024-08-18 20:57:12,477 INFO    HandlerThread:3948135 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-18 20:57:12,477 INFO    HandlerThread:3948135 [system_monitor.py:probe():227] Publishing system info
+2024-08-18 20:57:12,477 DEBUG   HandlerThread:3948135 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-08-18 20:57:12,477 DEBUG   HandlerThread:3948135 [system_info.py:_save_pip():68] Saving pip packages done
+2024-08-18 20:57:12,477 DEBUG   HandlerThread:3948135 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-08-18 20:57:13,355 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/conda-environment.yaml
+2024-08-18 20:57:13,355 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/requirements.txt
+2024-08-18 20:57:15,926 DEBUG   HandlerThread:3948135 [system_info.py:_save_conda():87] Saving conda packages done
+2024-08-18 20:57:15,927 INFO    HandlerThread:3948135 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-18 20:57:15,931 DEBUG   SenderThread:3948135 [sender.py:send():382] send: files
+2024-08-18 20:57:15,931 INFO    SenderThread:3948135 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-08-18 20:57:15,935 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 20:57:15,936 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 20:57:15,938 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 20:57:16,233 DEBUG   SenderThread:3948135 [sender.py:send():382] send: telemetry
+2024-08-18 20:57:16,355 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/conda-environment.yaml
+2024-08-18 20:57:16,355 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/wandb-metadata.json
+2024-08-18 20:57:16,671 INFO    wandb-upload_0:3948135 [upload_job.py:push():131] Uploaded file /tmp/tmplyou1is3wandb/lfgy2z8h-wandb-metadata.json
+2024-08-18 20:57:17,234 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 20:57:19,356 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/output.log
+2024-08-18 20:57:19,447 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 20:57:19,448 DEBUG   SenderThread:3948135 [sender.py:send():382] send: history
+2024-08-18 20:57:19,448 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 20:57:19,449 INFO    SenderThread:3948135 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 20:57:20,209 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 20:57:20,210 DEBUG   SenderThread:3948135 [sender.py:send():382] send: history
+2024-08-18 20:57:20,210 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 20:57:20,210 INFO    SenderThread:3948135 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 20:57:20,356 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/wandb-summary.json
+2024-08-18 20:57:20,523 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 20:57:20,523 DEBUG   SenderThread:3948135 [sender.py:send():382] send: history
+2024-08-18 20:57:20,523 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 20:57:20,524 INFO    SenderThread:3948135 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 20:57:20,584 DEBUG   SenderThread:3948135 [sender.py:send():382] send: exit
+2024-08-18 20:57:20,584 INFO    SenderThread:3948135 [sender.py:send_exit():589] handling exit code: 255
+2024-08-18 20:57:20,585 INFO    SenderThread:3948135 [sender.py:send_exit():591] handling runtime: 8
+2024-08-18 20:57:20,585 INFO    SenderThread:3948135 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 20:57:20,585 INFO    SenderThread:3948135 [sender.py:send_exit():597] send defer
+2024-08-18 20:57:20,585 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:20,585 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 0
+2024-08-18 20:57:20,585 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:20,585 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-08-18 20:57:20,585 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 1
+2024-08-18 20:57:20,585 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:20,585 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 1
+2024-08-18 20:57:20,585 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:20,586 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-08-18 20:57:20,586 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 2
+2024-08-18 20:57:20,586 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:20,586 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 2
+2024-08-18 20:57:20,586 INFO    HandlerThread:3948135 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-18 20:57:20,586 INFO    HandlerThread:3948135 [interfaces.py:finish():202] Joined cpu monitor
+2024-08-18 20:57:20,586 DEBUG   SystemMonitor:3948135 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-18 20:57:20,586 INFO    HandlerThread:3948135 [interfaces.py:finish():202] Joined disk monitor
+2024-08-18 20:57:20,587 DEBUG   SystemMonitor:3948135 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-18 20:57:20,587 DEBUG   SystemMonitor:3948135 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-18 20:57:20,748 INFO    HandlerThread:3948135 [interfaces.py:finish():202] Joined gpu monitor
+2024-08-18 20:57:20,748 INFO    HandlerThread:3948135 [interfaces.py:finish():202] Joined memory monitor
+2024-08-18 20:57:20,748 INFO    HandlerThread:3948135 [interfaces.py:finish():202] Joined network monitor
+2024-08-18 20:57:20,748 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:20,748 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-08-18 20:57:20,748 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 3
+2024-08-18 20:57:20,748 DEBUG   SenderThread:3948135 [sender.py:send():382] send: stats
+2024-08-18 20:57:20,749 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:20,749 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 3
+2024-08-18 20:57:20,749 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:20,749 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-08-18 20:57:20,749 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 4
+2024-08-18 20:57:20,749 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:20,749 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 4
+2024-08-18 20:57:20,749 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:20,749 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-08-18 20:57:20,749 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 5
+2024-08-18 20:57:20,749 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:20,749 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 5
+2024-08-18 20:57:20,750 DEBUG   SenderThread:3948135 [sender.py:send():382] send: summary
+2024-08-18 20:57:20,750 INFO    SenderThread:3948135 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 20:57:20,750 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:20,750 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-08-18 20:57:20,750 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 6
+2024-08-18 20:57:20,750 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:20,750 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 6
+2024-08-18 20:57:20,750 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:20,750 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-08-18 20:57:20,752 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 20:57:20,985 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 7
+2024-08-18 20:57:20,985 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:20,985 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 7
+2024-08-18 20:57:20,985 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:20,986 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-08-18 20:57:21,357 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/wandb-summary.json
+2024-08-18 20:57:21,357 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/config.yaml
+2024-08-18 20:57:21,357 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/output.log
+2024-08-18 20:57:21,585 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-18 20:57:22,588 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 8
+2024-08-18 20:57:22,588 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: poll_exit
+2024-08-18 20:57:22,588 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:22,588 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 8
+2024-08-18 20:57:22,589 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:22,589 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-08-18 20:57:22,589 INFO    SenderThread:3948135 [job_builder.py:build():298] Attempting to build job artifact
+2024-08-18 20:57:22,590 INFO    SenderThread:3948135 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-08-18 20:57:22,605 INFO    SenderThread:3948135 [job_builder.py:build():404] adding wandb-job metadata file
+2024-08-18 20:57:22,612 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 9
+2024-08-18 20:57:22,613 DEBUG   SenderThread:3948135 [sender.py:send():382] send: artifact
+2024-08-18 20:57:22,614 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:22,614 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 9
+2024-08-18 20:57:23,357 INFO    Thread-12 :3948135 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/output.log
+2024-08-18 20:57:23,577 INFO    SenderThread:3948135 [sender.py:send_artifact():1470] sent artifact job-git_github.com_NicoleZlq_Metro-Line.git_metro.py - {'id': 'QXJ0aWZhY3Q6MTE1NTAwMjE1MQ==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNDgxNjkyMw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE1NTAwMjE1MQ==', 'versionIndex': 38}}}
+2024-08-18 20:57:23,577 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:23,577 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-08-18 20:57:23,577 INFO    SenderThread:3948135 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-18 20:57:24,358 INFO    SenderThread:3948135 [dir_watcher.py:finish():388] scan: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files
+2024-08-18 20:57:24,358 INFO    SenderThread:3948135 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/wandb-summary.json wandb-summary.json
+2024-08-18 20:57:24,358 INFO    SenderThread:3948135 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/config.yaml config.yaml
+2024-08-18 20:57:24,359 INFO    SenderThread:3948135 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/wandb-metadata.json wandb-metadata.json
+2024-08-18 20:57:24,359 INFO    SenderThread:3948135 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/conda-environment.yaml conda-environment.yaml
+2024-08-18 20:57:24,359 INFO    SenderThread:3948135 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/output.log output.log
+2024-08-18 20:57:24,359 INFO    SenderThread:3948135 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/requirements.txt requirements.txt
+2024-08-18 20:57:24,361 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 10
+2024-08-18 20:57:24,364 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:24,364 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 10
+2024-08-18 20:57:24,365 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:24,365 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-08-18 20:57:24,365 INFO    SenderThread:3948135 [file_pusher.py:finish():175] shutting down file pusher
+2024-08-18 20:57:24,836 INFO    wandb-upload_1:3948135 [upload_job.py:push():131] Uploaded file /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/wandb-summary.json
+2024-08-18 20:57:24,891 INFO    wandb-upload_0:3948135 [upload_job.py:push():131] Uploaded file /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/config.yaml
+2024-08-18 20:57:25,002 INFO    wandb-upload_4:3948135 [upload_job.py:push():131] Uploaded file /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/requirements.txt
+2024-08-18 20:57:25,004 INFO    wandb-upload_3:3948135 [upload_job.py:push():131] Uploaded file /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/output.log
+2024-08-18 20:57:25,151 INFO    wandb-upload_2:3948135 [upload_job.py:push():131] Uploaded file /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/files/conda-environment.yaml
+2024-08-18 20:57:25,352 INFO    Thread-11 (_thread_body):3948135 [sender.py:transition_state():617] send defer: 11
+2024-08-18 20:57:25,352 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:25,352 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 11
+2024-08-18 20:57:25,353 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:25,353 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-08-18 20:57:25,353 INFO    SenderThread:3948135 [file_pusher.py:join():181] waiting for file pusher
+2024-08-18 20:57:25,353 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 12
+2024-08-18 20:57:25,353 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:25,353 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 12
+2024-08-18 20:57:25,354 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:25,354 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-08-18 20:57:25,354 INFO    SenderThread:3948135 [file_stream.py:finish():595] file stream finish called
+2024-08-18 20:57:25,568 INFO    SenderThread:3948135 [file_stream.py:finish():599] file stream finish is done
+2024-08-18 20:57:25,569 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 13
+2024-08-18 20:57:25,569 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:25,569 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 13
+2024-08-18 20:57:25,569 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:25,570 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-08-18 20:57:25,570 INFO    SenderThread:3948135 [sender.py:transition_state():617] send defer: 14
+2024-08-18 20:57:25,570 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 20:57:25,570 INFO    HandlerThread:3948135 [handler.py:handle_request_defer():172] handle defer: 14
+2024-08-18 20:57:25,570 DEBUG   SenderThread:3948135 [sender.py:send():382] send: final
+2024-08-18 20:57:25,570 DEBUG   SenderThread:3948135 [sender.py:send():382] send: footer
+2024-08-18 20:57:25,571 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: defer
+2024-08-18 20:57:25,571 INFO    SenderThread:3948135 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-08-18 20:57:25,571 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-18 20:57:25,572 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: poll_exit
+2024-08-18 20:57:25,572 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: server_info
+2024-08-18 20:57:25,572 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: get_summary
+2024-08-18 20:57:25,573 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: server_info
+2024-08-18 20:57:25,575 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: sampled_history
+2024-08-18 20:57:25,576 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 20:57:25,576 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: job_info
+2024-08-18 20:57:25,777 DEBUG   SenderThread:3948135 [sender.py:send_request():409] send_request: job_info
+2024-08-18 20:57:25,778 INFO    MainThread:3948135 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-08-18 20:57:25,778 INFO    MainThread:3948135 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-08-18 20:57:25,778 INFO    MainThread:3948135 [wandb_run.py:_footer_sync_info():3796] logging synced files
+2024-08-18 20:57:25,779 DEBUG   HandlerThread:3948135 [handler.py:handle_request():146] handle_request: shutdown
+2024-08-18 20:57:25,779 INFO    HandlerThread:3948135 [handler.py:finish():866] shutting down handler
+2024-08-18 20:57:26,576 INFO    WriterThread:3948135 [datastore.py:close():294] close: /home/liqing/MORL/Metro-Line/wandb/run-20240818_205711-aosdchwk/run-aosdchwk.wandb
+2024-08-18 20:57:26,778 INFO    SenderThread:3948135 [sender.py:finish():1548] shutting down sender
+2024-08-18 20:57:26,778 INFO    SenderThread:3948135 [file_pusher.py:finish():175] shutting down file pusher
+2024-08-18 20:57:26,778 INFO    SenderThread:3948135 [file_pusher.py:join():181] waiting for file pusher

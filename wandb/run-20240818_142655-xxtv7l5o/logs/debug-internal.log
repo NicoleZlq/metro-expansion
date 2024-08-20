@@ -1,0 +1,1353 @@
+2024-08-18 14:26:55,868 INFO    StreamThr :3708003 [internal.py:wandb_internal():86] W&B internal server running at pid: 3708003, started at: 2024-08-18 14:26:55.867927
+2024-08-18 14:26:55,870 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status
+2024-08-18 14:26:55,872 INFO    WriterThread:3708003 [datastore.py:open_for_write():85] open: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/run-xxtv7l5o.wandb
+2024-08-18 14:26:55,873 DEBUG   SenderThread:3708003 [sender.py:send():382] send: header
+2024-08-18 14:26:55,875 DEBUG   SenderThread:3708003 [sender.py:send():382] send: run
+2024-08-18 14:26:56,405 INFO    SenderThread:3708003 [dir_watcher.py:__init__():211] watching files in: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files
+2024-08-18 14:26:56,406 INFO    SenderThread:3708003 [sender.py:_start_run_threads():1136] run started: xxtv7l5o with start time 1723962415.867544
+2024-08-18 14:26:56,414 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: check_version
+2024-08-18 14:26:56,414 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: check_version
+2024-08-18 14:26:56,494 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: run_start
+2024-08-18 14:26:56,521 DEBUG   HandlerThread:3708003 [system_info.py:__init__():32] System info init
+2024-08-18 14:26:56,521 DEBUG   HandlerThread:3708003 [system_info.py:__init__():47] System info init done
+2024-08-18 14:26:56,521 INFO    HandlerThread:3708003 [system_monitor.py:start():194] Starting system monitor
+2024-08-18 14:26:56,522 INFO    SystemMonitor:3708003 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-18 14:26:56,523 INFO    HandlerThread:3708003 [system_monitor.py:probe():214] Collecting system info
+2024-08-18 14:26:56,523 INFO    SystemMonitor:3708003 [interfaces.py:start():190] Started cpu monitoring
+2024-08-18 14:26:56,523 INFO    SystemMonitor:3708003 [interfaces.py:start():190] Started disk monitoring
+2024-08-18 14:26:56,524 INFO    SystemMonitor:3708003 [interfaces.py:start():190] Started gpu monitoring
+2024-08-18 14:26:56,526 INFO    SystemMonitor:3708003 [interfaces.py:start():190] Started memory monitoring
+2024-08-18 14:26:56,527 INFO    SystemMonitor:3708003 [interfaces.py:start():190] Started network monitoring
+2024-08-18 14:26:56,585 DEBUG   HandlerThread:3708003 [system_info.py:probe():196] Probing system
+2024-08-18 14:26:56,586 DEBUG   HandlerThread:3708003 [system_info.py:_probe_git():181] Probing git
+2024-08-18 14:26:56,592 DEBUG   HandlerThread:3708003 [system_info.py:_probe_git():189] Probing git done
+2024-08-18 14:26:56,592 DEBUG   HandlerThread:3708003 [system_info.py:probe():244] Probing system done
+2024-08-18 14:26:56,592 DEBUG   HandlerThread:3708003 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2024-08-18T06:26:56.585203', 'startedAt': '2024-08-18T06:26:55.862977', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/liqing/MORL/Metro-Line/metro.py', 'codePathLocal': 'metro.py', 'codePath': 'metro.py', 'git': {'remote': 'git@github.com:NicoleZlq/Metro-Line.git', 'commit': 'e34b80c67713bdcc46379b94e742a45ed55a5312'}, 'email': 'um.zhangliqing@gmail.com', 'root': '/home/liqing/MORL/Metro-Line', 'host': 'lambda-dual', 'username': 'liqing', 'executable': '/home/liqing/anaconda3/envs/morl/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2.2588125000000017, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 3.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.205, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 158.71599197387695}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 125.63375473022461}}
+2024-08-18 14:26:56,593 INFO    HandlerThread:3708003 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-18 14:26:56,593 INFO    HandlerThread:3708003 [system_monitor.py:probe():227] Publishing system info
+2024-08-18 14:26:56,593 DEBUG   HandlerThread:3708003 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-08-18 14:26:56,593 DEBUG   HandlerThread:3708003 [system_info.py:_save_pip():68] Saving pip packages done
+2024-08-18 14:26:56,593 DEBUG   HandlerThread:3708003 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-08-18 14:26:57,407 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/conda-environment.yaml
+2024-08-18 14:26:57,407 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/requirements.txt
+2024-08-18 14:26:59,978 DEBUG   HandlerThread:3708003 [system_info.py:_save_conda():87] Saving conda packages done
+2024-08-18 14:26:59,978 INFO    HandlerThread:3708003 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-18 14:26:59,984 DEBUG   SenderThread:3708003 [sender.py:send():382] send: files
+2024-08-18 14:26:59,984 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-08-18 14:26:59,988 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:26:59,989 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:26:59,991 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:27:00,335 DEBUG   SenderThread:3708003 [sender.py:send():382] send: telemetry
+2024-08-18 14:27:00,407 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/conda-environment.yaml
+2024-08-18 14:27:00,407 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-metadata.json
+2024-08-18 14:27:00,701 INFO    wandb-upload_0:3708003 [upload_job.py:push():131] Uploaded file /tmp/tmp4iqle94gwandb/yu0xye3i-wandb-metadata.json
+2024-08-18 14:27:01,335 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:03,407 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:03,814 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:03,815 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:03,815 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:03,816 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:04,043 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 2.3 seconds. 
+2024-08-18 14:27:04,407 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:04,655 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:04,656 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:04,656 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:04,656 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:05,350 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:05,351 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:05,351 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:05,351 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:05,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:05,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:05,936 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:05,936 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:05,936 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:05,936 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:06,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:06,541 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 4.2 seconds. 
+2024-08-18 14:27:06,560 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:06,561 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:06,561 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:06,561 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:06,561 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:07,214 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:07,214 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:07,214 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:07,215 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:07,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:07,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:07,882 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:07,882 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:07,882 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:07,883 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:08,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:08,529 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:08,529 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:08,529 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:08,530 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:09,277 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:09,278 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:09,278 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:09,278 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:09,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:09,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:10,039 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:10,039 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:10,039 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:10,040 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:10,408 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:10,708 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:10,708 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:10,709 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:10,709 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:10,894 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 10.0 seconds. 
+2024-08-18 14:27:11,345 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:11,345 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:11,345 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:11,345 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:11,409 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:11,409 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:12,074 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:12,075 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:12,075 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:12,075 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:12,075 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:12,409 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:12,623 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:12,623 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:12,623 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:12,623 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:13,371 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:13,371 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:13,371 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:13,371 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:13,409 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:13,409 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:14,192 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:14,193 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:14,193 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:14,193 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:14,409 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:14,891 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:14,891 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:14,891 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:14,891 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:14,988 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:27:14,989 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:27:14,990 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:27:15,409 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:15,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:15,460 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:15,460 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:15,460 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:15,460 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:16,069 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:16,070 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:16,070 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:16,070 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:16,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:16,831 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:16,832 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:16,832 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:16,832 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:17,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:17,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:17,652 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:17,652 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:17,652 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:17,652 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:17,653 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:18,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:18,516 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:18,516 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:18,517 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:18,517 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:19,375 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:19,375 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:19,376 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:19,376 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:19,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:19,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:20,040 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:20,040 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:20,040 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:20,040 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:20,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:20,729 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:20,729 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:20,729 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:20,730 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:21,056 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 18.9 seconds. 
+2024-08-18 14:27:21,410 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:21,411 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:21,487 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:21,488 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:21,488 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:21,488 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:22,276 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:22,276 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:22,276 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:22,276 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:22,411 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:23,040 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:23,041 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:23,041 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:23,041 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:23,041 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:23,411 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:23,411 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:23,878 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:23,878 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:23,878 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:23,879 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:24,411 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:24,617 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:24,618 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:24,618 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:24,618 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:25,307 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:25,308 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:25,308 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:25,308 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:25,411 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:25,411 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:25,976 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:25,976 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:25,976 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:25,976 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:26,411 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:26,663 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:26,663 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:26,663 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:26,664 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:27,330 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:27,330 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:27,330 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:27,331 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:27,412 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:27,412 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:27,994 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:27,995 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:27,995 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:27,995 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:28,104 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:28,412 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:28,412 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/config.yaml
+2024-08-18 14:27:28,751 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:28,751 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:28,751 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:28,752 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:29,412 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:29,412 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:29,503 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:29,504 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:29,504 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:29,504 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:29,989 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:27:29,989 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:27:29,990 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:27:30,223 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:30,286 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:30,286 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:30,286 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:30,412 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:31,015 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:31,015 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:31,015 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:31,015 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:31,412 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:31,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:31,739 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:31,739 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:31,739 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:31,739 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:32,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:32,496 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:32,496 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:32,496 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:32,496 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:33,253 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:33,253 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:33,253 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:33,253 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:33,376 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:33,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:33,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:34,007 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:34,007 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:34,007 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:34,007 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:34,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:34,713 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:34,713 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:34,713 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:34,713 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:35,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:35,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:35,427 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:35,427 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:35,427 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:35,428 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:36,146 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:36,147 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:36,147 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:36,147 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:36,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:36,922 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:36,923 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:36,923 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:36,923 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:37,413 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:37,414 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:37,658 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:37,658 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:37,659 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:37,659 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:38,349 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:38,349 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:38,349 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:38,350 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:38,414 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:38,460 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:39,099 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:39,100 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:39,100 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:39,100 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:39,414 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:39,414 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:39,749 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:39,749 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:39,750 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:39,750 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:40,125 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 39.6 seconds. 
+2024-08-18 14:27:40,414 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:40,513 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:40,514 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:40,514 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:40,514 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:41,187 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:41,187 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:41,188 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:41,188 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:41,414 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:41,414 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:41,845 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:41,845 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:41,845 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:41,845 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:42,414 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:42,544 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:42,544 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:42,545 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:42,545 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:43,197 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:43,197 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:43,198 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:43,198 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:43,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:43,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:44,001 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:44,001 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:44,001 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:44,001 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:44,002 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:44,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:44,781 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:44,781 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:44,782 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:44,782 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:44,989 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:27:44,989 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:27:44,990 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:27:45,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:45,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:45,658 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:45,658 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:45,658 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:45,658 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:46,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:46,503 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:46,504 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:46,504 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:46,504 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:47,325 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:47,325 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:47,326 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:47,326 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:47,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:47,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:48,023 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:48,023 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:48,024 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:48,024 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:48,415 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:48,897 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:48,898 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:48,898 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:48,898 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:49,035 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:49,416 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:49,416 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:49,510 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:49,511 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:49,511 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:49,511 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:50,144 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:50,145 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:50,145 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:50,145 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:50,416 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:50,824 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:50,824 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:50,824 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:50,824 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:51,416 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:51,416 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:51,581 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:51,581 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:51,581 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:51,581 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:52,352 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:52,353 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:52,353 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:52,353 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:52,416 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:53,049 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:53,049 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:53,050 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:53,050 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:53,416 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:53,416 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:53,812 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:53,813 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:53,813 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:53,813 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:54,417 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:54,613 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:54,613 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:54,613 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:54,613 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:54,614 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:55,417 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:55,417 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:55,429 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:55,430 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:55,430 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:55,430 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:56,199 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:56,200 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:56,200 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:56,200 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:56,417 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:56,527 DEBUG   SystemMonitor:3708003 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-18 14:27:56,529 DEBUG   SenderThread:3708003 [sender.py:send():382] send: stats
+2024-08-18 14:27:57,067 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:57,068 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:57,068 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:57,068 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:57,417 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:57,417 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:57,977 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:57,978 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:57,978 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:57,978 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:58,417 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:58,878 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:58,878 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:58,878 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:58,879 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:27:59,417 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:27:59,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:27:59,815 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:27:59,816 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:27:59,816 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:27:59,816 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:27:59,816 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:00,000 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:28:00,000 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:28:00,001 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:28:00,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:00,503 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:00,503 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:00,503 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:00,504 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:01,265 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:01,266 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:01,266 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:01,266 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:01,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:01,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:02,081 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:02,081 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:02,082 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:02,082 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:02,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:02,886 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:02,886 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:02,886 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:02,887 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:03,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:03,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:03,754 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:03,754 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:03,754 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:03,754 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:04,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:04,662 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:04,662 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:04,662 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:04,663 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:05,418 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:05,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:05,476 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:05,476 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:05,476 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:05,476 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:05,477 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:06,307 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:06,307 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:06,308 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:06,308 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:06,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:07,152 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:07,152 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:07,152 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:07,152 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:07,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:07,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:08,010 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:08,011 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:08,011 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:08,011 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:08,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:09,011 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:09,012 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:09,012 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:09,013 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:09,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:09,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:09,999 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:09,999 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:09,999 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:10,000 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:10,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:10,828 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:10,829 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:10,829 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:10,829 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:10,829 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:11,419 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:11,420 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:11,642 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:11,643 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:11,643 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:11,643 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:12,420 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:12,641 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:12,642 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:12,642 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:12,643 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:13,348 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:13,348 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:13,348 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:13,348 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:13,420 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:13,420 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:14,249 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:14,250 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:14,250 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:14,250 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:14,420 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:15,000 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:28:15,000 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:28:15,002 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:28:15,075 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:15,294 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:15,295 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:15,295 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:15,420 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:15,420 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:15,894 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:15,894 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:15,895 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:15,895 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:15,895 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:16,420 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:16,716 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:16,717 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:16,717 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:16,717 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:17,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:17,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:17,616 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:17,616 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:17,617 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:17,617 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:18,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:18,494 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:18,495 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:18,495 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:18,495 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:19,385 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:19,386 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:19,386 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:19,386 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:19,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:19,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:19,920 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 73.2 seconds. 
+2024-08-18 14:28:20,127 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:20,127 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:20,127 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:20,128 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:20,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:21,016 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:21,017 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:21,017 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:21,017 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:21,017 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:21,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:21,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:21,803 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:21,804 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:21,804 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:21,804 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:22,421 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:22,707 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:22,708 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:22,708 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:22,708 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:23,422 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:23,422 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:23,597 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:23,597 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:23,598 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:23,598 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:24,422 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:24,474 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:24,474 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:24,475 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:24,475 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:25,336 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:25,336 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:25,337 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:25,337 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:25,422 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:25,422 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:26,166 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:26,166 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:26,167 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:26,167 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:26,167 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:26,422 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:26,529 DEBUG   SenderThread:3708003 [sender.py:send():382] send: stats
+2024-08-18 14:28:26,971 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:26,971 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:26,972 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:26,972 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:27,423 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:27,423 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:27,772 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:27,773 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:27,773 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:27,773 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:28,423 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:28,523 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:28,524 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:28,524 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:28,524 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:29,423 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:29,423 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:29,455 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:29,456 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:29,456 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:29,456 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:30,000 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:28:30,000 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:28:30,002 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:28:30,246 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:30,247 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:30,247 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:30,247 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:30,423 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:31,017 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:31,018 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:31,018 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:31,018 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:31,424 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:31,424 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:31,845 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:31,845 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:31,845 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:31,845 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:31,846 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:32,424 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:32,674 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:32,675 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:32,675 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:32,675 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:33,424 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:33,424 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:33,526 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:33,527 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:33,527 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:33,527 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:34,424 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:34,452 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:34,453 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:34,453 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:34,453 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:35,346 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:35,346 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:35,346 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:35,346 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:35,424 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:35,425 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:36,103 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:36,104 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:36,104 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:36,104 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:36,425 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:36,835 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:36,836 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:36,836 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:36,836 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:36,954 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:37,425 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:37,425 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:37,737 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:37,738 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:37,738 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:37,739 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:38,425 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:38,508 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:38,509 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:38,509 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:38,509 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:39,425 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:39,425 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:39,462 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:39,463 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:39,463 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:39,463 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:40,320 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:40,321 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:40,321 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:40,321 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:40,425 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:41,256 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:41,257 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:41,257 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:41,257 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:41,426 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:41,426 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:42,070 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:42,070 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:42,071 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:42,071 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:42,071 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:42,426 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:43,036 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:43,036 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:43,036 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:43,037 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:43,426 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:43,426 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:44,007 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:44,007 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:44,007 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:44,007 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:44,426 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:45,000 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:28:45,000 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:28:45,002 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:28:45,043 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:45,282 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:45,282 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:45,282 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:45,427 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:45,427 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:45,847 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:45,847 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:45,848 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:45,848 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:46,427 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:46,764 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:46,764 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:46,764 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:46,765 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:47,427 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:47,427 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:47,554 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:47,554 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:47,554 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:47,555 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:47,555 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:48,427 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:48,469 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:48,470 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:48,470 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:48,470 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:49,330 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:49,330 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:49,331 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:49,331 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:49,427 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:49,428 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:50,261 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:50,261 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:50,261 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:50,262 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:50,428 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:51,073 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:51,073 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:51,074 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:51,074 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:51,428 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:51,428 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:52,072 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:52,073 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:52,073 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:52,073 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:52,428 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:53,086 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:53,087 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:53,087 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:53,087 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:53,088 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:53,428 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:53,428 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:54,084 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:54,085 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:54,085 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:54,085 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:54,428 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:55,049 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:55,050 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:55,050 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:55,050 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:55,429 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:55,429 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:55,933 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:55,933 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:55,934 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:55,934 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:56,429 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:56,530 DEBUG   SenderThread:3708003 [sender.py:send():382] send: stats
+2024-08-18 14:28:56,704 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:56,704 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:56,704 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:56,705 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:57,429 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:57,429 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:57,589 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:57,589 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:57,590 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:57,590 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:58,429 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:58,535 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:58,536 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:58,536 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:58,536 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:28:58,536 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:28:59,430 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:28:59,430 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:28:59,501 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:28:59,502 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:28:59,502 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:28:59,503 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:00,000 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:29:00,000 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:29:00,002 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:29:00,430 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:00,549 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:00,550 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:00,550 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:00,551 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:01,430 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:01,430 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:01,680 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:01,680 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:01,681 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:01,681 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:02,430 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:02,723 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:02,723 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:02,724 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:02,724 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:03,431 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:03,431 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:03,594 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:03,595 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:03,595 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:03,595 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:29:03,595 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:04,431 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:04,521 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:04,522 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:04,522 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:04,522 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:05,431 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:05,431 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:05,567 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:05,567 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:05,567 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:05,568 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:06,431 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:06,443 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:06,444 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:06,444 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:06,444 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:07,301 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:07,302 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:07,302 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:07,302 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:07,432 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:07,432 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:08,204 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:08,205 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:08,205 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:08,205 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:08,432 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:09,260 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:09,261 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:09,261 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:09,261 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:29:09,262 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:09,432 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:09,432 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:10,229 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:10,229 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:10,229 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:10,229 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:10,433 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:11,232 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:11,232 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:11,232 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:11,233 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:11,433 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:11,433 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:12,259 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:12,260 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:12,260 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:12,260 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:12,433 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:13,197 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:13,198 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:13,198 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:13,198 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:13,433 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:13,434 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:14,293 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:14,294 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:14,294 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:14,294 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:29:14,294 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:14,434 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:15,000 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-18 14:29:15,000 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: stop_status
+2024-08-18 14:29:15,002 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-18 14:29:15,377 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:15,378 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:15,378 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:15,378 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:15,434 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:15,434 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:16,241 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:16,241 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:16,242 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:16,242 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:16,434 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:17,033 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: partial_history
+2024-08-18 14:29:17,033 DEBUG   SenderThread:3708003 [sender.py:send():382] send: history
+2024-08-18 14:29:17,034 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: summary_record
+2024-08-18 14:29:17,034 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:17,435 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:17,435 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:17,823 DEBUG   SenderThread:3708003 [sender.py:send():382] send: exit
+2024-08-18 14:29:17,823 INFO    SenderThread:3708003 [sender.py:send_exit():589] handling exit code: 255
+2024-08-18 14:29:17,824 INFO    SenderThread:3708003 [sender.py:send_exit():591] handling runtime: 141
+2024-08-18 14:29:17,824 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:17,824 INFO    SenderThread:3708003 [sender.py:send_exit():597] send defer
+2024-08-18 14:29:17,824 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:17,824 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 0
+2024-08-18 14:29:17,824 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:17,824 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-08-18 14:29:17,824 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 1
+2024-08-18 14:29:17,824 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:17,824 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 1
+2024-08-18 14:29:17,825 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:17,825 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-08-18 14:29:17,825 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 2
+2024-08-18 14:29:17,825 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:17,825 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 2
+2024-08-18 14:29:17,825 INFO    HandlerThread:3708003 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-18 14:29:17,825 DEBUG   SystemMonitor:3708003 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-18 14:29:17,825 DEBUG   SystemMonitor:3708003 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-18 14:29:17,826 INFO    HandlerThread:3708003 [interfaces.py:finish():202] Joined cpu monitor
+2024-08-18 14:29:17,826 INFO    HandlerThread:3708003 [interfaces.py:finish():202] Joined disk monitor
+2024-08-18 14:29:17,956 INFO    HandlerThread:3708003 [interfaces.py:finish():202] Joined gpu monitor
+2024-08-18 14:29:17,956 INFO    HandlerThread:3708003 [interfaces.py:finish():202] Joined memory monitor
+2024-08-18 14:29:17,956 INFO    HandlerThread:3708003 [interfaces.py:finish():202] Joined network monitor
+2024-08-18 14:29:17,956 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:17,956 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-08-18 14:29:17,956 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 3
+2024-08-18 14:29:17,956 DEBUG   SenderThread:3708003 [sender.py:send():382] send: stats
+2024-08-18 14:29:17,957 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:17,957 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 3
+2024-08-18 14:29:17,957 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:17,957 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-08-18 14:29:17,957 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 4
+2024-08-18 14:29:17,957 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:17,957 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 4
+2024-08-18 14:29:17,957 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:17,957 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-08-18 14:29:17,957 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 5
+2024-08-18 14:29:17,957 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:17,957 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 5
+2024-08-18 14:29:17,957 DEBUG   SenderThread:3708003 [sender.py:send():382] send: summary
+2024-08-18 14:29:17,957 INFO    SenderThread:3708003 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-08-18 14:29:17,958 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:17,958 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-08-18 14:29:17,958 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 6
+2024-08-18 14:29:17,958 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:17,958 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 6
+2024-08-18 14:29:17,958 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:17,958 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-08-18 14:29:17,958 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 7
+2024-08-18 14:29:17,958 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: status_report
+2024-08-18 14:29:17,958 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:17,958 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 7
+2024-08-18 14:29:17,958 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:17,958 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-08-18 14:29:18,436 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+2024-08-18 14:29:18,824 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-18 14:29:19,436 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:19,461 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 8
+2024-08-18 14:29:19,462 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: poll_exit
+2024-08-18 14:29:19,462 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:19,462 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 8
+2024-08-18 14:29:19,462 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:19,462 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-08-18 14:29:19,462 INFO    SenderThread:3708003 [job_builder.py:build():298] Attempting to build job artifact
+2024-08-18 14:29:19,463 INFO    SenderThread:3708003 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-08-18 14:29:19,481 INFO    SenderThread:3708003 [job_builder.py:build():404] adding wandb-job metadata file
+2024-08-18 14:29:19,488 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 9
+2024-08-18 14:29:19,488 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:19,488 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 9
+2024-08-18 14:29:19,489 DEBUG   SenderThread:3708003 [sender.py:send():382] send: artifact
+2024-08-18 14:29:19,825 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-18 14:29:20,437 INFO    Thread-12 :3708003 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+2024-08-18 14:29:20,475 ERROR   SenderThread:3708003 [internal_api.py:execute():373] 404 response executing GraphQL.
+2024-08-18 14:29:20,475 ERROR   SenderThread:3708003 [internal_api.py:execute():374] {"errors":[{"message":"failed to find run metro/xxtv7l5o","path":["useArtifact"]}],"data":{"useArtifact":null}}
+2024-08-18 14:29:20,476 ERROR   SenderThread:3708003 [sender.py:send_artifact():1472] send_artifact: failed for artifact "job/job-git_github.com_NicoleZlq_Metro-Line.git_metro.py": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-08-18 14:29:20,476 DEBUG   SenderThread:3708003 [sender.py:send_request():409] send_request: defer
+2024-08-18 14:29:20,476 INFO    SenderThread:3708003 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-08-18 14:29:20,476 INFO    SenderThread:3708003 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-18 14:29:21,022 WARNING StreamThr :3708003 [internal.py:is_dead():414] Internal process exiting, parent pid 3707912 disappeared
+2024-08-18 14:29:21,022 ERROR   StreamThr :3708003 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-08-18 14:29:21,438 INFO    SenderThread:3708003 [dir_watcher.py:finish():388] scan: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files
+2024-08-18 14:29:21,439 INFO    SenderThread:3708003 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json wandb-summary.json
+2024-08-18 14:29:21,439 INFO    SenderThread:3708003 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/config.yaml config.yaml
+2024-08-18 14:29:21,439 INFO    SenderThread:3708003 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-metadata.json wandb-metadata.json
+2024-08-18 14:29:21,439 INFO    SenderThread:3708003 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/conda-environment.yaml conda-environment.yaml
+2024-08-18 14:29:21,439 INFO    SenderThread:3708003 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log output.log
+2024-08-18 14:29:21,440 INFO    SenderThread:3708003 [dir_watcher.py:finish():402] scan save: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/requirements.txt requirements.txt
+2024-08-18 14:29:21,440 INFO    SenderThread:3708003 [sender.py:transition_state():617] send defer: 10
+2024-08-18 14:29:21,440 INFO    SenderThread:3708003 [sender.py:finish():1548] shutting down sender
+2024-08-18 14:29:21,440 DEBUG   HandlerThread:3708003 [handler.py:handle_request():146] handle_request: defer
+2024-08-18 14:29:21,442 INFO    SenderThread:3708003 [file_pusher.py:finish():175] shutting down file pusher
+2024-08-18 14:29:21,448 INFO    HandlerThread:3708003 [handler.py:handle_request_defer():172] handle defer: 10
+2024-08-18 14:29:21,452 INFO    SenderThread:3708003 [file_pusher.py:join():181] waiting for file pusher
+2024-08-18 14:29:21,452 INFO    HandlerThread:3708003 [handler.py:finish():866] shutting down handler
+2024-08-18 14:29:21,453 INFO    WriterThread:3708003 [datastore.py:close():294] close: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/run-xxtv7l5o.wandb
+2024-08-18 14:29:21,633 ERROR   wandb-upload_0:3708003 [internal_api.py:execute():373] 404 response executing GraphQL.
+2024-08-18 14:29:21,633 ERROR   wandb-upload_0:3708003 [internal_api.py:execute():374] {"errors":[{"message":"run metro/xxtv7l5o not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2024-08-18 14:29:21,634 ERROR   Thread-11 (_thread_body):3708003 [step_upload.py:_handle_event():200] Failed to upload file: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/wandb-summary.json
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2380, in upload_urls
+    query_result = self.gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/util.py", line 907, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-08-18 14:29:21,637 ERROR   wandb-upload_1:3708003 [internal_api.py:execute():373] 404 response executing GraphQL.
+2024-08-18 14:29:21,640 ERROR   wandb-upload_1:3708003 [internal_api.py:execute():374] {"errors":[{"message":"run metro/xxtv7l5o not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2024-08-18 14:29:21,640 ERROR   Thread-11 (_thread_body):3708003 [step_upload.py:_handle_event():200] Failed to upload file: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/config.yaml
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2380, in upload_urls
+    query_result = self.gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/util.py", line 907, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-08-18 14:29:21,718 ERROR   wandb-upload_2:3708003 [internal_api.py:execute():373] 404 response executing GraphQL.
+2024-08-18 14:29:21,718 ERROR   wandb-upload_2:3708003 [internal_api.py:execute():374] {"errors":[{"message":"run metro/xxtv7l5o not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2024-08-18 14:29:21,719 ERROR   Thread-11 (_thread_body):3708003 [step_upload.py:_handle_event():200] Failed to upload file: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/conda-environment.yaml
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2380, in upload_urls
+    query_result = self.gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/util.py", line 907, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-08-18 14:29:21,724 ERROR   wandb-upload_3:3708003 [internal_api.py:execute():373] 404 response executing GraphQL.
+2024-08-18 14:29:21,724 ERROR   wandb-upload_3:3708003 [internal_api.py:execute():374] {"errors":[{"message":"run metro/xxtv7l5o not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2024-08-18 14:29:21,725 ERROR   Thread-11 (_thread_body):3708003 [step_upload.py:_handle_event():200] Failed to upload file: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/output.log
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2380, in upload_urls
+    query_result = self.gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/util.py", line 907, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-08-18 14:29:21,727 ERROR   wandb-upload_4:3708003 [internal_api.py:execute():373] 404 response executing GraphQL.
+2024-08-18 14:29:21,727 ERROR   wandb-upload_4:3708003 [internal_api.py:execute():374] {"errors":[{"message":"run metro/xxtv7l5o not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2024-08-18 14:29:21,727 ERROR   Thread-11 (_thread_body):3708003 [step_upload.py:_handle_event():200] Failed to upload file: /home/liqing/MORL/Metro-Line/wandb/run-20240818_142655-xxtv7l5o/files/requirements.txt
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 73, in wrapper
+    raise err
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2380, in upload_urls
+    query_result = self.gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/util.py", line 907, in no_retry_auth
+    raise CommError(
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-08-18 14:29:21,954 INFO    SenderThread:3708003 [file_stream.py:finish():595] file stream finish called
+2024-08-18 14:29:33,420 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 129.5 seconds. 
+2024-08-18 14:31:43,206 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 282.7 seconds. 
+2024-08-18 14:36:26,211 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 337.7 seconds. 
+2024-08-18 14:42:04,182 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 336.7 seconds. 
+2024-08-18 14:47:41,099 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 309.5 seconds. 
+2024-08-18 14:52:50,758 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 314.7 seconds. 
+2024-08-18 14:58:05,769 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 314.5 seconds. 
+2024-08-18 15:03:20,579 INFO    FileStreamThread:3708003 [file_stream.py:request_with_retry():666] Filestream rate limit exceeded, retrying in 301.5 seconds. 
+2024-08-18 15:08:22,307 ERROR   FileStreamThread:3708003 [file_stream.py:_thread_except_body():494] generic exception in filestream thread
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 490, in _thread_except_body
+    self._thread_body()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 446, in _thread_body
+    success = self._send(ready_chunks, uploaded=uploaded)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 535, in _send
+    self._handle_response(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 501, in _handle_response
+    wandb.termerror(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+2024-08-18 15:08:22,433 INFO    SenderThread:3708003 [file_stream.py:finish():599] file stream finish is done
+2024-08-18 15:08:22,433 ERROR   SenderThread:3708003 [file_stream.py:finish():601] FileStream exception
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 490, in _thread_except_body
+    self._thread_body()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 446, in _thread_body
+    success = self._send(ready_chunks, uploaded=uploaded)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 535, in _send
+    self._handle_response(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 501, in _handle_response
+    wandb.termerror(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+2024-08-18 15:08:22,434 ERROR   StreamThr :3708003 [internal.py:wandb_internal():174] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 101, in _run
+    self._finish()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/internal.py", line 331, in _finish
+    self._sm.finish()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 1560, in finish
+    self._fs.finish(self._exit_code)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 604, in finish
+    raise self._exc_info[1].with_traceback(self._exc_info[2])
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 490, in _thread_except_body
+    self._thread_body()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 446, in _thread_body
+    success = self._send(ready_chunks, uploaded=uploaded)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 535, in _send
+    self._handle_response(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/sdk/internal/file_stream.py", line 501, in _handle_response
+    wandb.termerror(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error

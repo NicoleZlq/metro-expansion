@@ -1,0 +1,13 @@
+epoch 0,  actor_loss: 70.9309,  critic_loss: 6.1503, cost_time: 2.3978, best_solution: 0,od: 1.6819, eqity: 2.6111,rad: 13.7312
+1.6819225549697876 2.6110939010977745 13.731234788894653
+epoch 1,  actor_loss: 49.1716,  critic_loss: 3.8113, cost_time: 2.1278, best_solution: [7.985329627990723],od: 2.4444, eqity: 4.0291,rad: 14.9777
+2.444367909873108 4.029053315520287 14.977669715881348
+epoch 2,  actor_loss: -29.1520,  critic_loss: 3.4584, cost_time: 2.0523, best_solution: [9.186424255371094],od: 1.6244, eqity: 4.0993,rad: 10.9231
+epoch 3,  actor_loss: -29.9381,  critic_loss: 2.5302, cost_time: 2.3352, best_solution: [9.186424255371094],od: 1.1681, eqity: 2.4067,rad: 6.8686
+epoch 4,  actor_loss: 22.3939,  critic_loss: 1.7235, cost_time: 1.8977, best_solution: [9.186424255371094],od: 2.0737, eqity: 3.7707,rad: 14.1191
+epoch 5,  actor_loss: -3.1422,  critic_loss: 0.4203, cost_time: 1.9467, best_solution: [9.186424255371094],od: 0.9270, eqity: 2.2060,rad: 10.9231
+epoch 6,  actor_loss: 32.8252,  critic_loss: 1.8027, cost_time: 2.3826, best_solution: [9.186424255371094],od: 2.4898, eqity: 3.9498,rad: 6.8686
+epoch 7,  actor_loss: 3.8113,  critic_loss: 0.3194, cost_time: 2.0106, best_solution: [9.186424255371094],od: 1.0198, eqity: 2.0872,rad: 15.2929
+epoch 8,  actor_loss: 29.1018,  critic_loss: 2.0769, cost_time: 2.1318, best_solution: [9.186424255371094],od: 2.9241, eqity: 5.2328,rad: 14.9777
+2.9240575060248375 5.232773393392563 14.977669715881348
+epoch 9,  actor_loss: -32.8307,  critic_loss: 3.0218, cost_time: 1.8118, best_solution: [9.643478393554688],od: 0.2042, eqity: 0.8478,rad: 6.8686

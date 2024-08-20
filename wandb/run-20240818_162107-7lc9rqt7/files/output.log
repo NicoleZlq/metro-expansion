@@ -1,0 +1,31 @@
+tensor(73712.)
+epoch 0,  actor_loss: 192.0181,  critic_loss: 30.1097, cost_time: 1.4773, best_solution: 0,od: 3.0289, eqity: 4.2703,rad: 15.3201
+tensor(100, device='cuda:0') tensor([44.5837], device='cuda:0')
+3.0288862325251102 4.270334042608738 15.320056200027466
+epoch 1,  actor_loss: -247.7704,  critic_loss: 30.8842, cost_time: 0.5194, best_solution: [5.251160621643066],od: 1.1858, eqity: 2.5289,rad: 9.6767
+epoch 2,  actor_loss: -100.3797,  critic_loss: 12.9031, cost_time: 0.6532, best_solution: [5.251160621643066],od: 0.3943, eqity: 1.4520,rad: 6.8686
+epoch 3,  actor_loss: 257.4471,  critic_loss: 31.2664, cost_time: 0.8689, best_solution: [5.251160621643066],od: 2.4507, eqity: 5.0601,rad: 13.7312
+tensor([44.5837], device='cuda:0') tensor([43.9519], device='cuda:0')
+2.45074076205492 5.060135826468468 13.731234788894653
+epoch 4,  actor_loss: 123.9780,  critic_loss: 27.7586, cost_time: 0.6523, best_solution: [5.666306495666504],od: 2.9144, eqity: 2.2430,rad: 12.5120
+epoch 5,  actor_loss: 164.8996,  critic_loss: 40.1849, cost_time: 0.6908, best_solution: [5.666306495666504],od: 3.7053, eqity: 5.1017,rad: 25.2005
+tensor([43.9519], device='cuda:0') tensor([43.9186], device='cuda:0')
+3.7052529426291585 5.10174161568284 25.20045495033264
+epoch 6,  actor_loss: 74.4968,  critic_loss: 46.7337, cost_time: 0.8496, best_solution: [6.9719648361206055],od: 4.5835, eqity: 6.0072,rad: 30.3189
+tensor([43.9186], device='cuda:0') tensor([43.1943], device='cuda:0')
+4.583534505218267 6.007171634584665 30.31888437271118
+epoch 7,  actor_loss: -92.7773,  critic_loss: 32.8496, cost_time: 0.5975, best_solution: [8.295978546142578],od: 1.6118, eqity: 2.5759,rad: 16.9272
+epoch 8,  actor_loss: -99.7832,  critic_loss: 32.8536, cost_time: 0.6159, best_solution: [8.295978546142578],od: 2.0760, eqity: 3.6757,rad: 20.8144
+epoch 9,  actor_loss: -14.3851,  critic_loss: 41.3917, cost_time: 0.6953, best_solution: [8.295978546142578],od: 3.6855, eqity: 4.2976,rad: 26.2644
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 798, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 668, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 442, in train
+    actor_loss.backward()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

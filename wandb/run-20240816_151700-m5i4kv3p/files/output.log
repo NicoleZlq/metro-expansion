@@ -1,0 +1,22 @@
+tensor([[173, 229, 286, 285, 284, 283, 282, 310, 339, 338, 337, 366, 395, 394,
+         423, 422, 451, 450, 479, 478, 477, 506, 535, 564, 593, 622, 651, 680,
+         709, 738, 767, 796, 825, 824, 823]], device='cuda:0')
+tensor(73712.)
+epoch 0,  actor_loss: -161.4684,  critic_loss: 214.3584, cost_time: 12.3719, best_solution: 0,od: 30.2168, eqity: 38.2086,rad: 39.3048
+tensor(100, device='cuda:0') tensor([23.8266], device='cuda:0')
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 808, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 677, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 301, in train
+    tour_idx, tour_logp = actor(static, dynamic, allowed_station,  args.station_num_lim, args.first, args.budget, args.initial_direct, args.line_unit_price, args.station_price, decoder_input=None, last_hh=None)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro_model.py", line 385, in forward
+    vector_index_allow = self.forbid_overlap(ptr.data, vector_index_allow)
+  File "/home/liqing/MORL/Metro-Line/metro_model.py", line 183, in forbid_overlap
+    if pre_station in existing_lines[i]:
+KeyboardInterrupt

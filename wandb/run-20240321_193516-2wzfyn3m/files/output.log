@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 773, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 604, in train_vrp
+    critic.load_state_dict(torch.load(path, device))
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2152, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for StateCritic1:
+	size mismatch for fc3.weight: copying a param with shape torch.Size([3, 16820]) from checkpoint, the shape in current model is torch.Size([1, 16820]).
+	size mismatch for fc3.bias: copying a param with shape torch.Size([3]) from checkpoint, the shape in current model is torch.Size([1]).

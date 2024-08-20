@@ -1,0 +1,56 @@
+2024-08-15 19:49:46,674 INFO    StreamThr :2794600 [internal.py:wandb_internal():86] W&B internal server running at pid: 2794600, started at: 2024-08-15 19:49:46.674429
+2024-08-15 19:49:46,676 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: status
+2024-08-15 19:49:46,677 INFO    WriterThread:2794600 [datastore.py:open_for_write():85] open: /home/liqing/MORL/Metro-Line/wandb/run-20240815_194946-mn0466x5/run-mn0466x5.wandb
+2024-08-15 19:49:46,679 DEBUG   SenderThread:2794600 [sender.py:send():382] send: header
+2024-08-15 19:49:46,681 DEBUG   SenderThread:2794600 [sender.py:send():382] send: run
+2024-08-15 19:49:47,221 INFO    SenderThread:2794600 [dir_watcher.py:__init__():211] watching files in: /home/liqing/MORL/Metro-Line/wandb/run-20240815_194946-mn0466x5/files
+2024-08-15 19:49:47,221 INFO    SenderThread:2794600 [sender.py:_start_run_threads():1136] run started: mn0466x5 with start time 1723722586.673992
+2024-08-15 19:49:47,229 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: check_version
+2024-08-15 19:49:47,230 DEBUG   SenderThread:2794600 [sender.py:send_request():409] send_request: check_version
+2024-08-15 19:49:47,306 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: run_start
+2024-08-15 19:49:47,333 DEBUG   HandlerThread:2794600 [system_info.py:__init__():32] System info init
+2024-08-15 19:49:47,333 DEBUG   HandlerThread:2794600 [system_info.py:__init__():47] System info init done
+2024-08-15 19:49:47,333 INFO    HandlerThread:2794600 [system_monitor.py:start():194] Starting system monitor
+2024-08-15 19:49:47,333 INFO    SystemMonitor:2794600 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-15 19:49:47,333 INFO    HandlerThread:2794600 [system_monitor.py:probe():214] Collecting system info
+2024-08-15 19:49:47,334 INFO    SystemMonitor:2794600 [interfaces.py:start():190] Started cpu monitoring
+2024-08-15 19:49:47,334 INFO    SystemMonitor:2794600 [interfaces.py:start():190] Started disk monitoring
+2024-08-15 19:49:47,335 INFO    SystemMonitor:2794600 [interfaces.py:start():190] Started gpu monitoring
+2024-08-15 19:49:47,335 INFO    SystemMonitor:2794600 [interfaces.py:start():190] Started memory monitoring
+2024-08-15 19:49:47,336 INFO    SystemMonitor:2794600 [interfaces.py:start():190] Started network monitoring
+2024-08-15 19:49:47,393 DEBUG   HandlerThread:2794600 [system_info.py:probe():196] Probing system
+2024-08-15 19:49:47,395 DEBUG   HandlerThread:2794600 [system_info.py:_probe_git():181] Probing git
+2024-08-15 19:49:47,402 DEBUG   HandlerThread:2794600 [system_info.py:_probe_git():189] Probing git done
+2024-08-15 19:49:47,402 DEBUG   HandlerThread:2794600 [system_info.py:probe():244] Probing system done
+2024-08-15 19:49:47,402 DEBUG   HandlerThread:2794600 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2024-08-15T11:49:47.393539', 'startedAt': '2024-08-15T11:49:46.671193', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/liqing/MORL/Metro-Line/metro.py', 'codePathLocal': 'metro.py', 'codePath': 'metro.py', 'git': {'remote': 'git@github.com:NicoleZlq/Metro-Line.git', 'commit': '5702c1d8f8a7cfe0530b3a9b571c931413d3644c'}, 'email': 'um.zhangliqing@gmail.com', 'root': '/home/liqing/MORL/Metro-Line', 'host': 'lambda-dual', 'username': 'liqing', 'executable': '/home/liqing/anaconda3/envs/morl/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2.5662708333333346, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 4.24, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 3.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 3.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 4.242, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 3.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.433, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 3.8, 'min': 2200.0, 'max': 3800.0}, {'current': 2.8, 'min': 2200.0, 'max': 3800.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 158.48190307617188}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 125.63375473022461}}
+2024-08-15 19:49:47,402 INFO    HandlerThread:2794600 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-15 19:49:47,402 INFO    HandlerThread:2794600 [system_monitor.py:probe():227] Publishing system info
+2024-08-15 19:49:47,402 DEBUG   HandlerThread:2794600 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-08-15 19:49:47,402 DEBUG   HandlerThread:2794600 [system_info.py:_save_pip():68] Saving pip packages done
+2024-08-15 19:49:47,402 DEBUG   HandlerThread:2794600 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-08-15 19:49:48,223 INFO    Thread-12 :2794600 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240815_194946-mn0466x5/files/requirements.txt
+2024-08-15 19:49:48,223 INFO    Thread-12 :2794600 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240815_194946-mn0466x5/files/conda-environment.yaml
+2024-08-15 19:49:50,951 DEBUG   HandlerThread:2794600 [system_info.py:_save_conda():87] Saving conda packages done
+2024-08-15 19:49:50,952 INFO    HandlerThread:2794600 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-15 19:49:50,955 DEBUG   SenderThread:2794600 [sender.py:send():382] send: files
+2024-08-15 19:49:50,955 INFO    SenderThread:2794600 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-08-15 19:49:50,960 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-15 19:49:50,960 DEBUG   SenderThread:2794600 [sender.py:send_request():409] send_request: stop_status
+2024-08-15 19:49:50,962 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-15 19:49:51,222 INFO    Thread-12 :2794600 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240815_194946-mn0466x5/files/conda-environment.yaml
+2024-08-15 19:49:51,222 INFO    Thread-12 :2794600 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240815_194946-mn0466x5/files/wandb-metadata.json
+2024-08-15 19:49:51,259 DEBUG   SenderThread:2794600 [sender.py:send():382] send: telemetry
+2024-08-15 19:49:51,722 INFO    wandb-upload_0:2794600 [upload_job.py:push():131] Uploaded file /tmp/tmpmhre67vtwandb/owqxviea-wandb-metadata.json
+2024-08-15 19:49:52,259 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: status_report
+2024-08-15 19:49:57,260 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: status_report
+2024-08-15 19:50:02,260 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: status_report
+2024-08-15 19:50:05,960 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-15 19:50:05,960 DEBUG   SenderThread:2794600 [sender.py:send_request():409] send_request: stop_status
+2024-08-15 19:50:06,002 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-15 19:50:08,231 DEBUG   HandlerThread:2794600 [handler.py:handle_request():146] handle_request: status_report
+2024-08-15 19:50:11,310 INFO    MainThread:2794600 [internal.py:handle_exit():76] Internal process exited
+2024-08-15 19:50:11,344 INFO    memory    :2794600 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-08-15 19:50:11,345 DEBUG   SystemMonitor:2794600 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-15 19:50:11,345 DEBUG   SystemMonitor:2794600 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-15 19:50:11,345 DEBUG   SystemMonitor:2794600 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-15 19:50:11,346 DEBUG   SenderThread:2794600 [sender.py:send():382] send: stats

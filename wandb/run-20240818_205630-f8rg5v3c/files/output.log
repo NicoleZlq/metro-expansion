@@ -1,0 +1,145 @@
+tensor([[99.7960],
+        [98.0649],
+        [93.1314]])
+tensor([[100.3915],
+        [100.3085],
+        [ 99.1559]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[95.6752],
+        [90.8385],
+        [93.1314]])
+tensor([[100.3915],
+        [100.3085],
+        [ 99.1559]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[96.9292],
+        [95.9025],
+        [60.6952]])
+tensor([[100.3915],
+        [100.3085],
+        [ 99.1559]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[100.0000],
+        [100.0000],
+        [ 93.1314]])
+tensor([[100.3915],
+        [100.3085],
+        [ 99.1559]], device='cuda:0', grad_fn=<SubBackward0>)
+epoch 0,  actor_loss: 96.8214,  critic_loss: 1361.2080, cost_time: 1.0192, best_solution: 0,od: 1.8999, eqity: 3.7985,rad: 14.9777
+tensor(100, device='cuda:0') tensor([76.9612], device='cuda:0')
+tensor([[80.7411],
+        [82.3764],
+        [47.9846]])
+tensor([[-1356.7626],
+        [-1347.6716],
+        [-1279.8057]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[99.7499],
+        [98.4829],
+        [93.1314]])
+tensor([[-1356.7626],
+        [-1347.6716],
+        [-1279.8057]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[99.6560],
+        [97.6359],
+        [93.1314]])
+tensor([[-1356.7626],
+        [-1347.6716],
+        [-1279.8057]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[ 99.7136],
+        [100.0000],
+        [ 93.1314]])
+tensor([[-1356.7626],
+        [-1347.6716],
+        [-1279.8057]], device='cuda:0', grad_fn=<SubBackward0>)
+epoch 1,  actor_loss: -5760.5488,  critic_loss: 18074772.0000, cost_time: 0.4056, best_solution: 0,od: 5.0349, eqity: 5.3762,rad: 18.1553
+tensor([76.9612], device='cuda:0') tensor([75.6990], device='cuda:0')
+tensor([[93.6442],
+        [84.6472],
+        [93.1314]])
+tensor([[-196.9224],
+        [-189.4333],
+        [-177.8353]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[99.8234],
+        [98.9902],
+        [93.1314]])
+tensor([[-196.9224],
+        [-189.4333],
+        [-177.8353]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[91.0451],
+        [92.6951],
+        [59.1339]])
+tensor([[-196.9224],
+        [-189.4333],
+        [-177.8353]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[100.0000],
+        [100.0000],
+        [ 93.1314]])
+tensor([[-196.9224],
+        [-189.4333],
+        [-177.8353]], device='cuda:0', grad_fn=<SubBackward0>)
+epoch 2,  actor_loss: -2727.4790,  critic_loss: 701801.2500, cost_time: 0.3645, best_solution: 0,od: 3.8718, eqity: 5.9169,rad: 15.3680
+tensor([75.6990], device='cuda:0') tensor([75.2665], device='cuda:0')
+tensor([[91.8221],
+        [93.2299],
+        [60.6952]])
+tensor([[237.9230],
+        [229.6006],
+        [239.3077]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[99.6153],
+        [98.8092],
+        [93.1314]])
+tensor([[237.9230],
+        [229.6006],
+        [239.3077]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[98.1447],
+        [91.7685],
+        [93.1314]])
+tensor([[237.9230],
+        [229.6006],
+        [239.3077]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[99.7950],
+        [99.1497],
+        [93.1314]])
+tensor([[237.9230],
+        [229.6006],
+        [239.3077]], device='cuda:0', grad_fn=<SubBackward0>)
+epoch 3,  actor_loss: 3606.9331,  critic_loss: 184139.8281, cost_time: 0.4221, best_solution: 0,od: 2.6557, eqity: 4.2607,rad: 14.9777
+tensor([[100.0000],
+        [100.0000],
+        [ 93.1314]])
+tensor([[92.7890],
+        [97.8255],
+        [96.0909]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[99.1950],
+        [95.4659],
+        [93.1314]])
+tensor([[92.7890],
+        [97.8255],
+        [96.0909]], device='cuda:0', grad_fn=<SubBackward0>)
+tensor([[83.3398],
+        [89.8863],
+        [60.6952]])
+tensor([[92.7890],
+        [97.8255],
+        [96.0909]], device='cuda:0', grad_fn=<SubBackward0>)
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 802, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 672, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 283, in train
+    tour_idx, tour_logp = actor(static, dynamic, allowed_station,  args.station_num_lim, args.first, args.budget, args.initial_direct, args.line_unit_price, args.station_price, decoder_input=None, last_hh=None)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro_model.py", line 358, in forward
+    logp = m.log_prob(ptr) #
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/distributions/categorical.py", line 139, in log_prob
+    value, log_pmf = torch.broadcast_tensors(value, self.logits)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/distributions/utils.py", line 126, in __get__
+    value = self.wrapped(instance)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/distributions/categorical.py", line 96, in logits
+    return probs_to_logits(self.probs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/distributions/utils.py", line 104, in probs_to_logits
+    ps_clamped = clamp_probs(probs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/distributions/utils.py", line 94, in clamp_probs
+    return probs.clamp(min=eps, max=1 - eps)
+KeyboardInterrupt

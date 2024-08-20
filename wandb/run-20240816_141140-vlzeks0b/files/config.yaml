@@ -1,0 +1,127 @@
+wandb_version: 1
+
+grid_x_max:
+  desc: null
+  value: 29
+grid_y_max:
+  desc: null
+  value: 29
+checkpoint:
+  desc: null
+  value: null
+test:
+  desc: null
+  value: false
+actor_lr:
+  desc: null
+  value: 0.0005
+critic_lr:
+  desc: null
+  value: 0.0005
+max_grad_norm:
+  desc: null
+  value: 2
+batch_size:
+  desc: null
+  value: 4
+hidden_size:
+  desc: null
+  value: 128
+dropout:
+  desc: null
+  value: 0.1
+num_layers:
+  desc: null
+  value: 1
+train_size:
+  desc: null
+  value: 4
+exist_line_num:
+  desc: null
+  value: 2
+epoch_max:
+  desc: null
+  value: 6000
+initial_station:
+  desc: null
+  value: 0
+first:
+  desc: null
+  value: null
+initial_direct:
+  desc: null
+  value: null
+station_num_lim:
+  desc: null
+  value: 35
+budget:
+  desc: null
+  value: 270
+line_unit_price:
+  desc: null
+  value: 1.0
+station_price:
+  desc: null
+  value: 5.0
+dis_lim:
+  desc: null
+  value: null
+log:
+  desc: null
+  value: true
+method_name:
+  desc: null
+  value: RLTD
+label_name:
+  desc: null
+  value: exp5_price_dyna_
+w:
+  desc: null
+  value:
+  - - 0.8
+    - 0.1
+    - 0.1
+social_equity:
+  desc: null
+  value: 1
+factor_weight:
+  desc: null
+  value: 1
+factor_weight1:
+  desc: null
+  value: 0
+result_path:
+  desc: null
+  value: E:\UMstudy\Paper manu\part C\Metro-Line/result/
+od_index_path:
+  desc: null
+  value: E:\UMstudy\Paper manu\part C\Metro-Line/od_index_dyna.txt
+path_house:
+  desc: null
+  value: E:\UMstudy\Paper manu\part C\Metro-Line/index_average_price.txt
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.0
+    cli_version: 0.17.5
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1723788700
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.0
+      5: 0.17.5
+      8:
+      - 3
+      - 5
+      13: windows-amd64

@@ -1,0 +1,43 @@
+epoch 0,  actor_loss: 3.0328,  critic_loss: 0.1627, cost_time: 0.4174, best_solution: 0,od: 0.0465, eqity: 0.4337,rad: 5.1515
+tensor(100) tensor([79.9628])
+epoch 1,  actor_loss: 1794.6168,  critic_loss: 3312.2617, cost_time: 0.7131, best_solution: 0,od: 3.1733, eqity: 6.4968,rad: 42.4825
+tensor([79.9628]) tensor([77.4613])
+epoch 2,  actor_loss: 309.7601,  critic_loss: 327.2365, cost_time: 0.4450, best_solution: 0,od: 0.8600, eqity: 1.6504,rad: 14.9777
+epoch 3,  actor_loss: -208.3930,  critic_loss: 75.0368, cost_time: 0.6423, best_solution: 0,od: 1.3698, eqity: 3.4373,rad: 14.9777
+epoch 4,  actor_loss: -62.0227,  critic_loss: 18.7952, cost_time: 0.6685, best_solution: 0,od: 1.2946, eqity: 2.0434,rad: 18.1553
+epoch 5,  actor_loss: 301.9103,  critic_loss: 142.3661, cost_time: 0.6655, best_solution: 0,od: 1.8357, eqity: 7.7200,rad: 14.9777
+epoch 6,  actor_loss: 182.9974,  critic_loss: 89.1035, cost_time: 0.6124, best_solution: 0,od: 1.8823, eqity: 3.1374,rad: 18.1553
+epoch 7,  actor_loss: 4.2165,  critic_loss: 0.7427, cost_time: 0.4495, best_solution: 0,od: 0.4926, eqity: 2.3714,rad: 6.8686
+epoch 8,  actor_loss: -126.0333,  critic_loss: 35.0046, cost_time: 0.7755, best_solution: 0,od: 2.8297, eqity: 5.7265,rad: 18.1553
+epoch 9,  actor_loss: -153.8246,  critic_loss: 24.8679, cost_time: 0.6616, best_solution: 0,od: 1.8888, eqity: 5.0850,rad: 26.2644
+epoch 10,  actor_loss: -37.1259,  critic_loss: 13.8134, cost_time: 0.8677, best_solution: 0,od: 2.2891, eqity: 7.1224,rad: 23.4770
+epoch 11,  actor_loss: -59.3507,  critic_loss: 5.5293, cost_time: 0.8406, best_solution: 0,od: 1.2111, eqity: 2.9101,rad: 28.7029
+epoch 12,  actor_loss: -99.4943,  critic_loss: 19.9715, cost_time: 0.9539, best_solution: 0,od: 2.2442, eqity: 4.4770,rad: 26.2644
+epoch 13,  actor_loss: -99.4953,  critic_loss: 17.8879, cost_time: 0.6433, best_solution: 0,od: 0.1919, eqity: 0.9276,rad: 6.8686
+epoch 14,  actor_loss: 19.9487,  critic_loss: 5.1678, cost_time: 0.4967, best_solution: 0,od: 1.0449, eqity: 4.1237,rad: 14.9777
+epoch 15,  actor_loss: 66.8604,  critic_loss: 16.9576, cost_time: 0.6054, best_solution: 0,od: 1.7153, eqity: 4.8351,rad: 31.1958
+epoch 16,  actor_loss: 54.0212,  critic_loss: 12.4743, cost_time: 0.6493, best_solution: 0,od: 2.4773, eqity: 4.4629,rad: 14.9777
+epoch 17,  actor_loss: -108.3077,  critic_loss: 5.6303, cost_time: 0.5695, best_solution: 0,od: 1.5549, eqity: 4.7181,rad: 14.9777
+epoch 18,  actor_loss: -139.2122,  critic_loss: 3.4734, cost_time: 0.6094, best_solution: 0,od: 0.7551, eqity: 3.1899,rad: 6.8686
+epoch 19,  actor_loss: -81.7300,  critic_loss: 4.1535, cost_time: 0.5236, best_solution: 0,od: 1.2755, eqity: 4.4487,rad: 14.9777
+epoch 20,  actor_loss: -108.7660,  critic_loss: 1.6719, cost_time: 0.5146, best_solution: 0,od: 0.4949, eqity: 1.2561,rad: 6.8686
+epoch 21,  actor_loss: -134.6867,  critic_loss: 0.4931, cost_time: 0.3590, best_solution: 0,od: 0.7042, eqity: 0.6656,rad: 6.8686
+epoch 22,  actor_loss: -255.3891,  critic_loss: 5.6626, cost_time: 0.4448, best_solution: 0,od: 0.3008, eqity: 1.4173,rad: 6.8686
+epoch 23,  actor_loss: -407.8109,  critic_loss: 2.1685, cost_time: 0.5832, best_solution: 0,od: 1.6993, eqity: 5.9387,rad: 28.7029
+epoch 24,  actor_loss: -374.5739,  critic_loss: 1.2464, cost_time: 0.6708, best_solution: 0,od: 1.4172, eqity: 2.7467,rad: 14.9777
+epoch 25,  actor_loss: -377.6657,  critic_loss: 8.4649, cost_time: 0.6383, best_solution: 0,od: 3.3387, eqity: 4.7260,rad: 23.0867
+tensor([77.4613]) tensor([77.3290])
+Traceback (most recent call last):
+  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 790, in <module>
+    train_vrp(args)
+  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 660, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 474, in train
+    torch.save(actor.state_dict(), save_path)
+  File "E:\anaconda\envs\skip\lib\site-packages\torch\serialization.py", line 422, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "E:\anaconda\envs\skip\lib\site-packages\torch\serialization.py", line 309, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "E:\anaconda\envs\skip\lib\site-packages\torch\serialization.py", line 287, in __init__
+    super(_open_zipfile_writer_file, self).__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: File E:\UMstudy\Paper manu\part C\Metro-Line/result/exp5_od_dyna__method_RLTD_w[0.8 0.1 0.1]\15_31_27.905604\actor.pt cannot be opened.

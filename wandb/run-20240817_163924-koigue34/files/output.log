@@ -1,0 +1,75 @@
+tensor(73712.)
+epoch 0,  actor_loss: 53.3206,  critic_loss: 3.7386, cost_time: 1.1381, best_solution: 0,od: 1.4501, eqity: 3.2111,rad: 17.7858
+tensor(100, device='cuda:0') tensor([46.8399], device='cuda:0')
+epoch 1,  actor_loss: -134.1156,  critic_loss: 35.7928, cost_time: 0.7534, best_solution: 0,od: 2.3569, eqity: 4.9578,rad: 18.1281
+tensor([46.8399], device='cuda:0') tensor([46.1144], device='cuda:0')
+epoch 2,  actor_loss: 44.5375,  critic_loss: 5.0684, cost_time: 0.6780, best_solution: 0,od: 1.7187, eqity: 2.8362,rad: 14.2833
+epoch 3,  actor_loss: -21.6103,  critic_loss: 3.9535, cost_time: 0.7285, best_solution: 0,od: 1.8911, eqity: 3.9481,rad: 13.7312
+epoch 4,  actor_loss: 36.8060,  critic_loss: 4.6373, cost_time: 0.7300, best_solution: 0,od: 1.9660, eqity: 3.7293,rad: 16.9272
+epoch 5,  actor_loss: 55.7188,  critic_loss: 10.9468, cost_time: 0.7098, best_solution: 0,od: 3.1479, eqity: 5.0786,rad: 16.5665
+tensor([46.1144], device='cuda:0') tensor([45.4817], device='cuda:0')
+epoch 6,  actor_loss: -74.3592,  critic_loss: 9.5133, cost_time: 0.6873, best_solution: 0,od: 1.9506, eqity: 3.2101,rad: 13.7312
+epoch 7,  actor_loss: -93.1081,  critic_loss: 10.5435, cost_time: 0.6894, best_solution: 0,od: 1.9116, eqity: 4.9151,rad: 17.7858
+epoch 8,  actor_loss: 72.6628,  critic_loss: 13.4879, cost_time: 0.8442, best_solution: 0,od: 5.3646, eqity: 7.8601,rad: 31.9077
+tensor([45.4817], device='cuda:0') tensor([43.7083], device='cuda:0')
+epoch 9,  actor_loss: 31.4916,  critic_loss: 20.7615, cost_time: 0.8210, best_solution: 0,od: 4.9817, eqity: 6.7113,rad: 18.8575
+epoch 10,  actor_loss: -60.0145,  critic_loss: 11.2842, cost_time: 0.7435, best_solution: 0,od: 2.8472, eqity: 4.0007,rad: 17.7858
+epoch 11,  actor_loss: -51.1581,  critic_loss: 12.5800, cost_time: 0.6927, best_solution: 0,od: 2.9613, eqity: 5.7815,rad: 19.3746
+epoch 12,  actor_loss: 7.8882,  critic_loss: 15.5287, cost_time: 0.7055, best_solution: 0,od: 4.0431, eqity: 5.7151,rad: 16.5665
+epoch 13,  actor_loss: -30.2691,  critic_loss: 5.1903, cost_time: 0.6578, best_solution: 0,od: 1.7063, eqity: 3.3263,rad: 13.9264
+epoch 14,  actor_loss: 27.0020,  critic_loss: 7.1400, cost_time: 0.5700, best_solution: 0,od: 2.5109, eqity: 3.5240,rad: 15.3201
+epoch 15,  actor_loss: 97.6794,  critic_loss: 29.6457, cost_time: 0.7460, best_solution: 0,od: 3.8159, eqity: 4.2259,rad: 18.5160
+epoch 16,  actor_loss: 2.9483,  critic_loss: 2.1995, cost_time: 0.7428, best_solution: 0,od: 1.4698, eqity: 3.4479,rad: 14.9777
+epoch 17,  actor_loss: 154.2759,  critic_loss: 46.5416, cost_time: 0.6299, best_solution: 0,od: 4.7769, eqity: 4.2392,rad: 18.1553
+epoch 18,  actor_loss: 72.3969,  critic_loss: 8.8114, cost_time: 0.8223, best_solution: 0,od: 3.1009, eqity: 4.6826,rad: 14.9777
+epoch 19,  actor_loss: 4.7528,  critic_loss: 4.5264, cost_time: 0.6788, best_solution: 0,od: 1.7366, eqity: 4.3439,rad: 5.1515
+epoch 20,  actor_loss: 84.9994,  critic_loss: 26.6440, cost_time: 0.6507, best_solution: 0,od: 3.8151, eqity: 4.0120,rad: 12.5120
+epoch 21,  actor_loss: 21.6945,  critic_loss: 5.2627, cost_time: 0.7528, best_solution: 0,od: 3.4953, eqity: 4.7110,rad: 20.6210
+epoch 22,  actor_loss: -16.1946,  critic_loss: 11.5093, cost_time: 0.7698, best_solution: 0,od: 2.6161, eqity: 4.2855,rad: 6.8686
+epoch 23,  actor_loss: -65.6628,  critic_loss: 8.0917, cost_time: 0.6833, best_solution: 0,od: 1.4419, eqity: 4.4661,rad: 10.9231
+epoch 24,  actor_loss: 57.0132,  critic_loss: 21.8479, cost_time: 0.7397, best_solution: 0,od: 3.9085, eqity: 5.8944,rad: 17.2967
+epoch 25,  actor_loss: 38.7987,  critic_loss: 8.0500, cost_time: 0.7718, best_solution: 0,od: 3.2834, eqity: 5.5717,rad: 20.6210
+epoch 26,  actor_loss: 24.7351,  critic_loss: 11.7368, cost_time: 0.6320, best_solution: 0,od: 2.6161, eqity: 3.7754,rad: 10.9231
+epoch 27,  actor_loss: 42.1930,  critic_loss: 10.0162, cost_time: 0.7433, best_solution: 0,od: 2.9030, eqity: 4.8786,rad: 20.9634
+epoch 28,  actor_loss: 35.4910,  critic_loss: 6.3074, cost_time: 0.6669, best_solution: 0,od: 2.6664, eqity: 3.6772,rad: 16.5665
+epoch 29,  actor_loss: 7.3398,  critic_loss: 4.9408, cost_time: 0.5245, best_solution: 0,od: 1.8150, eqity: 2.7005,rad: 14.9777
+epoch 30,  actor_loss: -11.1559,  critic_loss: 3.0023, cost_time: 0.5962, best_solution: 0,od: 1.2570, eqity: 2.5835,rad: 6.8686
+epoch 31,  actor_loss: 65.4612,  critic_loss: 11.6792, cost_time: 0.7108, best_solution: 0,od: 3.2236, eqity: 2.9429,rad: 23.9812
+epoch 32,  actor_loss: 50.8209,  critic_loss: 5.8227, cost_time: 0.7144, best_solution: 0,od: 3.4994, eqity: 6.0672,rad: 19.0322
+epoch 33,  actor_loss: 82.5864,  critic_loss: 12.4860, cost_time: 0.7155, best_solution: 0,od: 4.6317, eqity: 6.0596,rad: 26.4578
+epoch 34,  actor_loss: -19.2209,  critic_loss: 2.4829, cost_time: 0.5943, best_solution: 0,od: 1.7527, eqity: 3.0322,rad: 14.9777
+epoch 35,  actor_loss: -44.6729,  critic_loss: 4.3034, cost_time: 0.6568, best_solution: 0,od: 1.0915, eqity: 2.0069,rad: 12.7054
+epoch 36,  actor_loss: 68.3151,  critic_loss: 12.6936, cost_time: 0.8506, best_solution: 0,od: 4.8543, eqity: 6.1696,rad: 29.2676
+epoch 37,  actor_loss: 2.3996,  critic_loss: 3.3170, cost_time: 0.7192, best_solution: 0,od: 2.7775, eqity: 5.4808,rad: 13.7312
+epoch 38,  actor_loss: 20.1461,  critic_loss: 6.1351, cost_time: 0.6277, best_solution: 0,od: 3.0134, eqity: 4.1754,rad: 20.8314
+epoch 39,  actor_loss: 72.6044,  critic_loss: 13.4869, cost_time: 0.7519, best_solution: 0,od: 4.5773, eqity: 6.3138,rad: 19.0322
+epoch 40,  actor_loss: 11.4539,  critic_loss: 11.4564, cost_time: 0.6580, best_solution: 0,od: 2.5834, eqity: 3.5590,rad: 18.3378
+epoch 41,  actor_loss: 16.0292,  critic_loss: 2.9473, cost_time: 0.7383, best_solution: 0,od: 2.9376, eqity: 4.2100,rad: 17.7858
+epoch 42,  actor_loss: 103.1613,  critic_loss: 17.0788, cost_time: 0.8086, best_solution: 0,od: 5.6492, eqity: 5.1967,rad: 34.3734
+tensor([43.7083], device='cuda:0') tensor([43.4806], device='cuda:0')
+epoch 43,  actor_loss: 24.2881,  critic_loss: 5.3541, cost_time: 0.6772, best_solution: 0,od: 2.4313, eqity: 3.8917,rad: 20.6210
+epoch 44,  actor_loss: 26.4799,  critic_loss: 5.8933, cost_time: 0.8206, best_solution: 0,od: 3.1497, eqity: 5.9450,rad: 19.2274
+epoch 45,  actor_loss: 53.0054,  critic_loss: 9.2565, cost_time: 0.7367, best_solution: 0,od: 4.5384, eqity: 5.0173,rad: 22.2098
+epoch 46,  actor_loss: -24.2228,  critic_loss: 5.1754, cost_time: 0.7561, best_solution: 0,od: 1.6472, eqity: 2.0053,rad: 10.9231
+epoch 47,  actor_loss: 85.3628,  critic_loss: 18.7992, cost_time: 0.6933, best_solution: 0,od: 5.7613, eqity: 6.0360,rad: 25.0659
+tensor([43.4806], device='cuda:0') tensor([43.3910], device='cuda:0')
+epoch 48,  actor_loss: -41.2530,  critic_loss: 4.6327, cost_time: 0.6416, best_solution: 0,od: 1.7590, eqity: 4.0982,rad: 19.3746
+epoch 49,  actor_loss: 4.2769,  critic_loss: 6.2462, cost_time: 0.6885, best_solution: 0,od: 3.5624, eqity: 4.9848,rad: 23.9812
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 789, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 656, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 280, in train
+    tour_idx, tour_logp = actor(static, dynamic, allowed_station,  args.station_num_lim, args.first, args.budget, args.initial_direct, args.line_unit_price, args.station_price, decoder_input=None, last_hh=None)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro_model.py", line 379, in forward
+    self.direction_vector, vector_index_allow = self.vector_allow_fn(agent_current_index, grid_index1, exist_agent_last_grid, self.direction_vector)
+  File "/home/liqing/MORL/Metro-Line/metro_vrp.py", line 623, in vector_allow
+    direction_vector = self.agent_direct_vector(direction_vector, grid_index1, exist_agent_last_grid)
+  File "/home/liqing/MORL/Metro-Line/metro_vrp.py", line 471, in agent_direct_vector
+    elif torch.equal(deviation2, self.quadrant3):
+KeyboardInterrupt

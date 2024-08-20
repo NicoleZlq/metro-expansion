@@ -1,0 +1,69 @@
+epoch 0,  actor_loss: 145.1697,  critic_loss: 4599.5830, cost_time: 1.3780, best_solution: 0,od: 5.9332, eqity: 5.1558,rad: 32.7296
+epoch 1,  actor_loss: -30784.0527,  critic_loss: 10817728.0000, cost_time: 0.5543, best_solution: 0,od: 4.5512, eqity: 3.9705,rad: 26.8308
+epoch 2,  actor_loss: 169.1481,  critic_loss: 15752.4521, cost_time: 0.5236, best_solution: 0,od: 1.7537, eqity: 3.1910,rad: 18.1372
+epoch 3,  actor_loss: -6006.2891,  critic_loss: 528159.4375, cost_time: 0.6201, best_solution: 0,od: 1.8092, eqity: 3.7778,rad: 12.2747
+epoch 4,  actor_loss: 401.7967,  critic_loss: 93913.3438, cost_time: 0.5139, best_solution: 0,od: 2.4529, eqity: 5.1088,rad: 12.2747
+epoch 5,  actor_loss: -965.0885,  critic_loss: 31717.8086, cost_time: 0.4348, best_solution: 0,od: 0.7358, eqity: 2.4857,rad: 12.2747
+epoch 6,  actor_loss: 132.6805,  critic_loss: 807.6281, cost_time: 0.5650, best_solution: 0,od: 2.1457, eqity: 5.2509,rad: 12.2747
+epoch 7,  actor_loss: -4.2116,  critic_loss: 1169.7987, cost_time: 0.5541, best_solution: 0,od: 2.7174, eqity: 4.4568,rad: 14.3931
+epoch 8,  actor_loss: -444.5570,  critic_loss: 2187.2678, cost_time: 0.4529, best_solution: 0,od: 0.9946, eqity: 2.1069,rad: 6.8686
+epoch 9,  actor_loss: -295.7061,  critic_loss: 1811.4814, cost_time: 0.4511, best_solution: 0,od: 2.3471, eqity: 2.4096,rad: 13.2483
+epoch 10,  actor_loss: -103.7259,  critic_loss: 1900.4763, cost_time: 0.5238, best_solution: 0,od: 1.9607, eqity: 2.0297,rad: 19.7991
+epoch 11,  actor_loss: -23.8199,  critic_loss: 709.9055, cost_time: 0.4705, best_solution: 0,od: 2.2123, eqity: 3.2843,rad: 12.2747
+epoch 12,  actor_loss: -241.1765,  critic_loss: 1043.4615, cost_time: 0.6153, best_solution: 0,od: 2.5261, eqity: 2.9685,rad: 12.2747
+epoch 13,  actor_loss: 221.5153,  critic_loss: 15532.1436, cost_time: 0.4830, best_solution: 0,od: 1.1340, eqity: 2.7226,rad: 16.0188
+epoch 14,  actor_loss: 164.3833,  critic_loss: 9599.3262, cost_time: 0.4996, best_solution: 0,od: 2.3835, eqity: 4.1194,rad: 14.3931
+epoch 15,  actor_loss: 96.9991,  critic_loss: 2326.7012, cost_time: 0.6539, best_solution: 0,od: 2.9872, eqity: 4.2061,rad: 25.2051
+epoch 16,  actor_loss: -174.1178,  critic_loss: 2055.5493, cost_time: 0.6027, best_solution: 0,od: 3.6981, eqity: 4.3316,rad: 28.4927
+epoch 17,  actor_loss: -81.7955,  critic_loss: 714.8717, cost_time: 0.5607, best_solution: 0,od: 1.6861, eqity: 3.4370,rad: 12.2747
+epoch 18,  actor_loss: 65.9879,  critic_loss: 856.9834, cost_time: 0.4949, best_solution: 0,od: 1.1179, eqity: 2.6543,rad: 12.2747
+epoch 19,  actor_loss: 238.0920,  critic_loss: 2540.7380, cost_time: 0.7213, best_solution: 0,od: 3.4691, eqity: 5.5229,rad: 23.0867
+epoch 20,  actor_loss: 128.9187,  critic_loss: 1568.4086, cost_time: 0.6302, best_solution: 0,od: 1.9804, eqity: 3.7834,rad: 14.3931
+epoch 21,  actor_loss: 70.4239,  critic_loss: 2149.9041, cost_time: 0.4895, best_solution: 0,od: 2.1738, eqity: 2.7142,rad: 23.8011
+epoch 22,  actor_loss: 133.2990,  critic_loss: 1443.7666, cost_time: 0.5162, best_solution: 0,od: 2.4569, eqity: 3.5306,rad: 14.3931
+epoch 23,  actor_loss: 134.7610,  critic_loss: 1939.7201, cost_time: 0.6046, best_solution: 0,od: 2.7466, eqity: 4.4675,rad: 19.7991
+epoch 24,  actor_loss: 127.9049,  critic_loss: 1685.2551, cost_time: 0.4784, best_solution: 0,od: 2.4634, eqity: 3.7259,rad: 21.4248
+epoch 25,  actor_loss: 156.6680,  critic_loss: 3778.8013, cost_time: 0.5756, best_solution: 0,od: 6.6282, eqity: 6.7926,rad: 38.1356
+epoch 26,  actor_loss: -45.8959,  critic_loss: 465.0544, cost_time: 0.5457, best_solution: 0,od: 2.6660, eqity: 4.0037,rad: 6.8686
+epoch 27,  actor_loss: -139.5727,  critic_loss: 1051.8018, cost_time: 0.5243, best_solution: 0,od: 1.3694, eqity: 2.9624,rad: 12.2747
+epoch 28,  actor_loss: -143.3989,  critic_loss: 1650.0844, cost_time: 0.6158, best_solution: 0,od: 2.3244, eqity: 3.5466,rad: 19.7991
+epoch 29,  actor_loss: -89.9085,  critic_loss: 810.8843, cost_time: 0.4772, best_solution: 0,od: 2.8552, eqity: 3.8578,rad: 11.1299
+epoch 30,  actor_loss: -77.0602,  critic_loss: 192.0166, cost_time: 0.5098, best_solution: 0,od: 0.7561, eqity: 2.9351,rad: 6.8686
+epoch 31,  actor_loss: -9.1460,  critic_loss: 1736.5096, cost_time: 0.4304, best_solution: 0,od: 1.6462, eqity: 3.2092,rad: 23.0867
+epoch 32,  actor_loss: 54.7072,  critic_loss: 2282.6182, cost_time: 0.6007, best_solution: 0,od: 4.5143, eqity: 4.7908,rad: 27.5669
+epoch 33,  actor_loss: 24.7497,  critic_loss: 1246.1190, cost_time: 0.4906, best_solution: 0,od: 2.4829, eqity: 4.2221,rad: 16.3599
+epoch 34,  actor_loss: -54.2459,  critic_loss: 653.4056, cost_time: 0.5097, best_solution: 0,od: 0.6966, eqity: 1.5958,rad: 12.2747
+epoch 35,  actor_loss: -17.6882,  critic_loss: 985.4471, cost_time: 0.6503, best_solution: 0,od: 4.2502, eqity: 4.3937,rad: 16.0188
+epoch 36,  actor_loss: -52.9757,  critic_loss: 2234.1814, cost_time: 0.6129, best_solution: 0,od: 4.6529, eqity: 5.4157,rad: 28.9493
+epoch 37,  actor_loss: -148.2205,  critic_loss: 2485.4614, cost_time: 0.5739, best_solution: 0,od: 3.2589, eqity: 4.4730,rad: 31.0677
+epoch 38,  actor_loss: -268.7874,  critic_loss: 1290.4974, cost_time: 0.5660, best_solution: 0,od: 1.3494, eqity: 2.4400,rad: 16.0188
+epoch 39,  actor_loss: -345.6089,  critic_loss: 1975.1501, cost_time: 0.6171, best_solution: 0,od: 2.5297, eqity: 3.0559,rad: 27.5669
+epoch 40,  actor_loss: -361.0413,  critic_loss: 2004.0256, cost_time: 0.5364, best_solution: 0,od: 1.5390, eqity: 2.5080,rad: 21.4248
+epoch 41,  actor_loss: -317.8864,  critic_loss: 1976.1654, cost_time: 0.4452, best_solution: 0,od: 2.0127, eqity: 2.2269,rad: 9.9851
+epoch 42,  actor_loss: -299.6091,  critic_loss: 1466.6541, cost_time: 0.4637, best_solution: 0,od: 2.0648, eqity: 3.4435,rad: 12.2747
+epoch 43,  actor_loss: -257.3951,  critic_loss: 1973.7139, cost_time: 0.6616, best_solution: 0,od: 3.8393, eqity: 5.0045,rad: 28.9493
+epoch 44,  actor_loss: -211.8422,  critic_loss: 775.9335, cost_time: 0.4576, best_solution: 0,od: 0.8390, eqity: 1.8011,rad: 10.6127
+epoch 45,  actor_loss: -131.0678,  critic_loss: 347.2159, cost_time: 0.4770, best_solution: 0,od: 0.7052, eqity: 2.4504,rad: 6.8686
+epoch 46,  actor_loss: -69.3960,  critic_loss: 626.7571, cost_time: 0.6029, best_solution: 0,od: 1.8679, eqity: 3.4628,rad: 12.2747
+epoch 47,  actor_loss: 46.8922,  critic_loss: 1179.5178, cost_time: 0.5690, best_solution: 0,od: 1.8995, eqity: 4.6243,rad: 17.6807
+epoch 48,  actor_loss: -23.3923,  critic_loss: 373.4336, cost_time: 0.4645, best_solution: 0,od: 0.4801, eqity: 1.5712,rad: 10.6127
+epoch 49,  actor_loss: 33.4219,  critic_loss: 670.3146, cost_time: 0.5633, best_solution: 0,od: 1.9022, eqity: 3.4076,rad: 12.2747
+epoch 50,  actor_loss: 28.1223,  critic_loss: 688.6650, cost_time: 0.4215, best_solution: 0,od: 2.0681, eqity: 2.9675,rad: 12.2747
+epoch 51,  actor_loss: 59.2742,  critic_loss: 2307.1792, cost_time: 0.6186, best_solution: 0,od: 3.4806, eqity: 4.0323,rad: 21.9175
+epoch 52,  actor_loss: 12.8680,  critic_loss: 990.6605, cost_time: 0.6206, best_solution: 0,od: 2.0917, eqity: 2.7249,rad: 16.2790
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 798, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 668, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 283, in train
+    tour_idx, tour_logp = actor(static, dynamic, allowed_station,  args.station_num_lim, args.first, args.budget, args.initial_direct, args.line_unit_price, args.station_price, decoder_input=None, last_hh=None)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro_model.py", line 385, in forward
+    vector_index_allow = self.forbid_overlap(ptr.data, vector_index_allow)
+  File "/home/liqing/MORL/Metro-Line/metro_model.py", line 183, in forbid_overlap
+    if pre_station in existing_lines[i]:
+KeyboardInterrupt

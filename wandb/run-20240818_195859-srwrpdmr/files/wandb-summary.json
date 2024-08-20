@@ -1,0 +1,1 @@
+{"reward/satified OD demand": 0.3384286165237427, "reward/social equity": 1.4198753833770752, "reward/radiation accessibility": 6.868621826171875, "loss/critic_loss": 0.023526940494775772, "loss/actor_loss": -584.4981689453125, "_timestamp": 1723983162.719306, "_runtime": 822.7903740406036, "_step": 1453, "_wandb": {"runtime": 822}}

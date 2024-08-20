@@ -1,0 +1,29 @@
+1111
+epoch 0,  actor_loss: -6.2355,  critic_loss: 2.8189, cost_time: 1.3095, best_solution: 0,od: 0.0000, eqity: 0.0783,rad: 0.0000
+0.0 0.07831913325935602 0.0
+epoch 1,  actor_loss: 41.7927,  critic_loss: 94.3040, cost_time: 0.1690, best_solution: [0.03915956988930702],od: 0.0000, eqity: 0.1735,rad: 0.0000
+0.0 0.17351925605908036 0.0
+epoch 2,  actor_loss: -17.5910,  critic_loss: 17.5537, cost_time: 0.1607, best_solution: [0.08675961196422577],od: 0.0000, eqity: 0.1574,rad: 0.0000
+epoch 3,  actor_loss: 0.1302,  critic_loss: 0.0054, cost_time: 0.1631, best_solution: [0.08675961196422577],od: 0.0000, eqity: 0.2596,rad: 0.0000
+0.0 0.25961284805089235 0.0
+epoch 4,  actor_loss: -18.8387,  critic_loss: 17.2605, cost_time: 0.1741, best_solution: [0.12980642914772034],od: 0.0000, eqity: 0.2714,rad: 0.0000
+0.0 0.2713978490792215 0.0
+epoch 5,  actor_loss: -7.0851,  critic_loss: 2.4427, cost_time: 0.1712, best_solution: [0.13569892942905426],od: 0.0000, eqity: 0.2147,rad: 0.0000
+epoch 6,  actor_loss: 20.3962,  critic_loss: 19.8162, cost_time: 0.1676, best_solution: [0.13569892942905426],od: 0.0000, eqity: 0.2399,rad: 0.0000
+epoch 7,  actor_loss: 19.9966,  critic_loss: 20.7867, cost_time: 0.1800, best_solution: [0.13569892942905426],od: 0.0000, eqity: 0.2595,rad: 0.0000
+epoch 8,  actor_loss: 8.5294,  critic_loss: 3.3391, cost_time: 0.1683, best_solution: [0.13569892942905426],od: 0.0000, eqity: 0.2193,rad: 0.0000
+epoch 9,  actor_loss: -11.3348,  critic_loss: 6.3146, cost_time: 0.1682, best_solution: [0.13569892942905426],od: 0.0000, eqity: 0.2032,rad: 0.0000
+[[[0.5 0.5 0. ]]]
+1111
+Traceback (most recent call last):
+  File "D:\Study\MORL\Metro-Line\metro.py", line 791, in <module>
+    train_vrp(args)
+  File "D:\Study\MORL\Metro-Line\metro.py", line 659, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "D:\Study\MORL\Metro-Line\metro.py", line 320, in train
+    reward =torch.einsum("nb,bn->n", torch.Tensor(args.w), reward_vec )
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\.conda\envs\morl\Lib\site-packages\torch\functional.py", line 377, in einsum
+    return _VF.einsum(equation, operands)  # type: ignore[attr-defined]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: einsum(): the number of subscripts in the equation (2) does not match the number of dimensions (3) for operand 0 and no ellipsis was given

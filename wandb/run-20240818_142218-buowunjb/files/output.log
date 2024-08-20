@@ -1,0 +1,56 @@
+tensor(73712.)
+epoch 0,  actor_loss: 104.4463,  critic_loss: 10.5352, cost_time: 1.1446, best_solution: 0,od: 2.8333, eqity: 3.7446,rad: 18.1736
+2.8332733444331097 3.7445982322096825 18.1736159324646
+epoch 1,  actor_loss: -230.8134,  critic_loss: 67.5887, cost_time: 0.6810, best_solution: [4.45844030380249],od: 1.5727, eqity: 5.1096,rad: 13.7312
+epoch 2,  actor_loss: -79.9164,  critic_loss: 10.0554, cost_time: 0.6566, best_solution: [4.45844030380249],od: 0.9134, eqity: 3.0771,rad: 13.7312
+epoch 3,  actor_loss: 242.3836,  critic_loss: 49.9101, cost_time: 0.8172, best_solution: [4.45844030380249],od: 2.1912, eqity: 3.9249,rad: 18.3378
+epoch 4,  actor_loss: 187.2291,  critic_loss: 34.4027, cost_time: 0.6651, best_solution: [4.45844030380249],od: 1.8403, eqity: 4.4116,rad: 22.2098
+epoch 5,  actor_loss: 64.3292,  critic_loss: 5.2721, cost_time: 0.6396, best_solution: [4.45844030380249],od: 1.0558, eqity: 3.4525,rad: 12.5120
+epoch 6,  actor_loss: -12.6701,  critic_loss: 0.6713, cost_time: 0.7227, best_solution: [4.45844030380249],od: 0.7387, eqity: 2.7924,rad: 6.8686
+epoch 7,  actor_loss: 72.0388,  critic_loss: 11.5519, cost_time: 0.7490, best_solution: [4.45844030380249],od: 2.4890, eqity: 4.8428,rad: 20.9634
+2.4889621851034462 4.842782601714134 20.963401556015015
+epoch 8,  actor_loss: 11.1102,  critic_loss: 2.5196, cost_time: 0.6388, best_solution: [4.571788311004639],od: 1.5022, eqity: 3.6026,rad: 14.9777
+epoch 9,  actor_loss: -5.0302,  critic_loss: 1.4787, cost_time: 0.7064, best_solution: [4.571788311004639],od: 0.8254, eqity: 2.3153,rad: 12.5120
+epoch 10,  actor_loss: 8.9647,  critic_loss: 0.4721, cost_time: 0.6745, best_solution: [4.571788311004639],od: 0.7085, eqity: 2.9370,rad: 13.7312
+epoch 11,  actor_loss: 121.6050,  critic_loss: 15.3220, cost_time: 0.7159, best_solution: [4.571788311004639],od: 3.6734, eqity: 6.3293,rad: 29.1204
+3.6733569825591985 6.329267241060734 29.120381832122803
+epoch 12,  actor_loss: 44.1977,  critic_loss: 3.8852, cost_time: 0.6389, best_solution: [6.4836506843566895],od: 2.6600, eqity: 5.3632,rad: 25.8948
+epoch 13,  actor_loss: -31.2445,  critic_loss: 3.6886, cost_time: 0.5372, best_solution: [6.4836506843566895],od: 0.6558, eqity: 2.3095,rad: 11.8468
+epoch 14,  actor_loss: -26.9627,  critic_loss: 2.4033, cost_time: 0.7229, best_solution: [6.4836506843566895],od: 1.6303, eqity: 4.2315,rad: 20.6210
+epoch 15,  actor_loss: 14.0378,  critic_loss: 2.8971, cost_time: 0.6625, best_solution: [6.4836506843566895],od: 2.5987, eqity: 5.1665,rad: 20.6210
+epoch 16,  actor_loss: -23.7398,  critic_loss: 2.9789, cost_time: 0.6729, best_solution: [6.4836506843566895],od: 1.4984, eqity: 3.9950,rad: 19.3746
+epoch 17,  actor_loss: 43.4802,  critic_loss: 5.9546, cost_time: 0.6948, best_solution: [6.4836506843566895],od: 2.8959, eqity: 4.4039,rad: 19.3746
+[34m[1mwandb[39m[22m: 429 encountered (Filestream rate limit exceeded, retrying in 2.1 seconds.), retrying request
+[34m[1mwandb[39m[22m: 429 encountered (Filestream rate limit exceeded, retrying in 4.3 seconds.), retrying request
+[34m[1mwandb[39m[22m: 429 encountered (Filestream rate limit exceeded, retrying in 9.9 seconds.), retrying request
+epoch 18,  actor_loss: 25.7421,  critic_loss: 5.3770, cost_time: 0.6468, best_solution: [6.4836506843566895],od: 2.8984, eqity: 3.9367,rad: 28.9252
+epoch 19,  actor_loss: -0.4592,  critic_loss: 3.3965, cost_time: 0.7396, best_solution: [6.4836506843566895],od: 2.9136, eqity: 4.2293,rad: 27.3364
+epoch 20,  actor_loss: -24.4711,  critic_loss: 3.8989, cost_time: 0.6958, best_solution: [6.4836506843566895],od: 2.0617, eqity: 5.2760,rad: 19.3746
+epoch 21,  actor_loss: 2.2654,  critic_loss: 5.1026, cost_time: 0.7231, best_solution: [6.4836506843566895],od: 2.7648, eqity: 4.1751,rad: 28.8981
+epoch 22,  actor_loss: -20.8063,  critic_loss: 2.2050, cost_time: 0.6572, best_solution: [6.4836506843566895],od: 1.5303, eqity: 3.9018,rad: 12.4848
+epoch 23,  actor_loss: -3.0182,  critic_loss: 1.4378, cost_time: 0.6288, best_solution: [6.4836506843566895],od: 1.4688, eqity: 3.2674,rad: 19.0322
+epoch 24,  actor_loss: 33.5229,  critic_loss: 2.2804, cost_time: 0.6264, best_solution: [6.4836506843566895],od: 1.9539, eqity: 5.1505,rad: 25.8948
+epoch 25,  actor_loss: 95.1642,  critic_loss: 9.5567, cost_time: 0.8482, best_solution: [6.4836506843566895],od: 3.6178, eqity: 6.5855,rad: 25.5700
+epoch 26,  actor_loss: 19.4588,  critic_loss: 1.0968, cost_time: 0.5575, best_solution: [6.4836506843566895],od: 1.4215, eqity: 2.9263,rad: 20.4825
+epoch 27,  actor_loss: 28.3791,  critic_loss: 3.2789, cost_time: 0.7455, best_solution: [6.4836506843566895],od: 2.2262, eqity: 5.1323,rad: 16.5665
+epoch 28,  actor_loss: -69.4705,  critic_loss: 6.3870, cost_time: 0.6332, best_solution: [6.4836506843566895],od: 1.0096, eqity: 3.1969,rad: 13.5992
+epoch 29,  actor_loss: 18.4483,  critic_loss: 6.6111, cost_time: 0.7763, best_solution: [6.4836506843566895],od: 4.2499, eqity: 5.7286,rad: 24.8435
+epoch 30,  actor_loss: -88.8040,  critic_loss: 14.1294, cost_time: 0.7191, best_solution: [6.4836506843566895],od: 2.1193, eqity: 3.4521,rad: 19.0953
+epoch 31,  actor_loss: -113.9130,  critic_loss: 12.5896, cost_time: 0.8713, best_solution: [6.4836506843566895],od: 2.2313, eqity: 5.1979,rad: 19.3746
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 786, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 656, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 280, in train
+    tour_idx, tour_logp = actor(static, dynamic, allowed_station,  args.station_num_lim, args.first, args.budget, args.initial_direct, args.line_unit_price, args.station_price, decoder_input=None, last_hh=None)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro_model.py", line 385, in forward
+    vector_index_allow = self.forbid_overlap(ptr.data, vector_index_allow)
+  File "/home/liqing/MORL/Metro-Line/metro_model.py", line 183, in forbid_overlap
+    if pre_station in existing_lines[i]:
+KeyboardInterrupt
+epoch 32,  actor_loss: -39.4253,  critic_loss: 4.3406, cost_time: 0.6303, best_solution: [6.4836506843566895],od: 2.5460, eqity: 6.3122,rad: 25.9307

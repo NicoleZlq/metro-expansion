@@ -1,0 +1,61 @@
+2024-03-19 18:27:40,900 INFO    StreamThr :2018565 [internal.py:wandb_internal():86] W&B internal server running at pid: 2018565, started at: 2024-03-19 18:27:40.898909
+2024-03-19 18:27:40,906 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: status
+2024-03-19 18:27:40,913 INFO    WriterThread:2018565 [datastore.py:open_for_write():85] open: /home/liqing/MORL/Metro-Line/wandb/run-20240319_182740-qiep8ymr/run-qiep8ymr.wandb
+2024-03-19 18:27:40,915 DEBUG   SenderThread:2018565 [sender.py:send():382] send: header
+2024-03-19 18:27:40,915 DEBUG   SenderThread:2018565 [sender.py:send():382] send: run
+2024-03-19 18:27:41,531 INFO    SenderThread:2018565 [dir_watcher.py:__init__():211] watching files in: /home/liqing/MORL/Metro-Line/wandb/run-20240319_182740-qiep8ymr/files
+2024-03-19 18:27:41,531 INFO    SenderThread:2018565 [sender.py:_start_run_threads():1136] run started: qiep8ymr with start time 1710844060.896665
+2024-03-19 18:27:41,546 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: check_version
+2024-03-19 18:27:41,546 DEBUG   SenderThread:2018565 [sender.py:send_request():409] send_request: check_version
+2024-03-19 18:27:41,639 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: run_start
+2024-03-19 18:27:41,648 DEBUG   HandlerThread:2018565 [system_info.py:__init__():32] System info init
+2024-03-19 18:27:41,648 DEBUG   HandlerThread:2018565 [system_info.py:__init__():47] System info init done
+2024-03-19 18:27:41,649 INFO    HandlerThread:2018565 [system_monitor.py:start():194] Starting system monitor
+2024-03-19 18:27:41,649 INFO    HandlerThread:2018565 [system_monitor.py:probe():214] Collecting system info
+2024-03-19 18:27:41,650 INFO    SystemMonitor:2018565 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-19 18:27:41,652 INFO    SystemMonitor:2018565 [interfaces.py:start():190] Started cpu monitoring
+2024-03-19 18:27:41,654 INFO    SystemMonitor:2018565 [interfaces.py:start():190] Started disk monitoring
+2024-03-19 18:27:41,659 INFO    SystemMonitor:2018565 [interfaces.py:start():190] Started gpu monitoring
+2024-03-19 18:27:41,661 INFO    SystemMonitor:2018565 [interfaces.py:start():190] Started memory monitoring
+2024-03-19 18:27:41,663 INFO    SystemMonitor:2018565 [interfaces.py:start():190] Started network monitoring
+2024-03-19 18:27:41,708 DEBUG   HandlerThread:2018565 [system_info.py:probe():196] Probing system
+2024-03-19 18:27:41,711 DEBUG   HandlerThread:2018565 [system_info.py:_probe_git():181] Probing git
+2024-03-19 18:27:41,722 DEBUG   HandlerThread:2018565 [system_info.py:_probe_git():189] Probing git done
+2024-03-19 18:27:41,722 DEBUG   HandlerThread:2018565 [system_info.py:probe():244] Probing system done
+2024-03-19 18:27:41,722 DEBUG   HandlerThread:2018565 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.10.13', 'heartbeatAt': '2024-03-19T10:27:41.709042', 'startedAt': '2024-03-19T10:27:40.890167', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/liqing/MORL/Metro-Line/metro.py', 'codePathLocal': 'metro.py', 'codePath': 'metro.py', 'git': {'remote': 'git@github.com:NicoleZlq/Metro-Line.git', 'commit': 'a63382a0f3392b05198e00c2cf2aab5848fd7c10'}, 'email': 'um.zhangliqing@gmail.com', 'root': '/home/liqing/MORL/Metro-Line', 'host': 'lambda-dual', 'username': 'liqing', 'executable': '/home/liqing/anaconda3/envs/morl/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2.2039791666666684, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.512, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}, {'current': 2.2, 'min': 2200.0, 'max': 3800.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 157.6577262878418}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 125.63375473022461}}
+2024-03-19 18:27:41,722 INFO    HandlerThread:2018565 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-19 18:27:41,722 INFO    HandlerThread:2018565 [system_monitor.py:probe():227] Publishing system info
+2024-03-19 18:27:41,723 DEBUG   HandlerThread:2018565 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-03-19 18:27:41,724 DEBUG   HandlerThread:2018565 [system_info.py:_save_pip():68] Saving pip packages done
+2024-03-19 18:27:41,725 DEBUG   HandlerThread:2018565 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-03-19 18:27:42,538 INFO    Thread-17 :2018565 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240319_182740-qiep8ymr/files/conda-environment.yaml
+2024-03-19 18:27:42,538 INFO    Thread-17 :2018565 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240319_182740-qiep8ymr/files/requirements.txt
+2024-03-19 18:27:45,133 DEBUG   HandlerThread:2018565 [system_info.py:_save_conda():87] Saving conda packages done
+2024-03-19 18:27:45,139 INFO    HandlerThread:2018565 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-19 18:27:45,148 DEBUG   SenderThread:2018565 [sender.py:send():382] send: files
+2024-03-19 18:27:45,148 INFO    SenderThread:2018565 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-03-19 18:27:45,160 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 18:27:45,161 DEBUG   SenderThread:2018565 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 18:27:45,166 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 18:27:45,489 DEBUG   SenderThread:2018565 [sender.py:send():382] send: telemetry
+2024-03-19 18:27:45,532 INFO    Thread-17 :2018565 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240319_182740-qiep8ymr/files/conda-environment.yaml
+2024-03-19 18:27:45,533 INFO    Thread-17 :2018565 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240319_182740-qiep8ymr/files/wandb-metadata.json
+2024-03-19 18:27:45,924 INFO    wandb-upload_0:2018565 [upload_job.py:push():131] Uploaded file /tmp/tmpnxouo7x9wandb/5tnzrop2-wandb-metadata.json
+2024-03-19 18:27:46,489 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 18:27:51,490 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 18:27:56,492 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 18:28:00,161 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 18:28:00,161 DEBUG   SenderThread:2018565 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 18:28:00,203 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 18:28:00,844 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 18:28:00,847 DEBUG   SenderThread:2018565 [sender.py:send():382] send: history
+2024-03-19 18:28:00,848 DEBUG   SenderThread:2018565 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 18:28:00,851 INFO    SenderThread:2018565 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-03-19 18:28:01,541 INFO    Thread-17 :2018565 [dir_watcher.py:_on_file_created():271] file/dir created: /home/liqing/MORL/Metro-Line/wandb/run-20240319_182740-qiep8ymr/files/wandb-summary.json
+2024-03-19 18:28:01,852 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 18:28:04,960 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 18:28:04,961 DEBUG   SenderThread:2018565 [sender.py:send():382] send: history
+2024-03-19 18:28:04,962 DEBUG   SenderThread:2018565 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 18:28:04,965 INFO    SenderThread:2018565 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-03-19 18:28:05,543 INFO    Thread-17 :2018565 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/liqing/MORL/Metro-Line/wandb/run-20240319_182740-qiep8ymr/files/wandb-summary.json
+2024-03-19 18:28:06,967 DEBUG   HandlerThread:2018565 [handler.py:handle_request():146] handle_request: status_report

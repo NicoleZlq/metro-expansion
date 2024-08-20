@@ -1,0 +1,64 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-02-01T02:02:47.580089",
+    "startedAt": "2024-02-01T02:02:45.431077",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--budget",
+        "270",
+        "--w",
+        "0",
+        "1",
+        "0",
+        "--method_name",
+        "RLTD",
+        "--first",
+        "2"
+    ],
+    "state": "running",
+    "program": "D:\\Study\\MORL\\Metro-Line\\metro.py",
+    "codePathLocal": "metro.py",
+    "codePath": "metro.py",
+    "git": {
+        "remote": "git@github.com:NicoleZlq/Metro-Line.git",
+        "commit": "7d0899c3afe30c361aede4c89b22d14c8cc82cc9"
+    },
+    "email": "um.zhangliqing@gmail.com",
+    "root": "D:/Study/MORL/Metro-Line",
+    "host": "DESKTOP-P991GBT",
+    "username": "ASUS",
+    "executable": "C:\\Users\\ASUS\\.conda\\envs\\morl\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3500.0,
+        "min": 0.0,
+        "max": 3500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3500.0,
+            "min": 0.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 585.9374961853027,
+            "used": 56.75590896606445
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4080",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 31.817794799804688
+    }
+}

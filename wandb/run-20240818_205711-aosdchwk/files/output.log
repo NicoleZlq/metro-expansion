@@ -1,0 +1,88 @@
+1111 tensor([[94.0570],
+        [91.4706],
+        [47.9846]])
+2222 tensor([[ 97.1933],
+        [103.2065],
+        [ 99.8073]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[97.2048],
+        [97.8085],
+        [60.6952]])
+2222 tensor([[ 97.1933],
+        [103.2065],
+        [ 99.8073]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[ 99.8300],
+        [100.0000],
+        [ 93.1314]])
+2222 tensor([[ 97.1933],
+        [103.2065],
+        [ 99.8073]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[98.3654],
+        [93.8121],
+        [93.1314]])
+2222 tensor([[ 97.1933],
+        [103.2065],
+        [ 99.8073]], device='cuda:0', grad_fn=<SubBackward0>)
+epoch 0,  actor_loss: 198.5166,  critic_loss: 3448.1877, cost_time: 1.1016, best_solution: 0,od: 2.6357, eqity: 4.2272,rad: 26.2644
+tensor(100, device='cuda:0') tensor([76.6183], device='cuda:0')
+1111 tensor([[78.9785],
+        [83.7861],
+        [47.9846]])
+2222 tensor([[-1133.3525],
+        [-1026.7209],
+        [-1126.5084]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[99.8372],
+        [99.3907],
+        [93.1314]])
+2222 tensor([[-1133.3525],
+        [-1026.7209],
+        [-1126.5084]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[99.9999],
+        [99.5881],
+        [93.1314]])
+2222 tensor([[-1133.3525],
+        [-1026.7209],
+        [-1126.5084]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[ 99.8645],
+        [100.0000],
+        [ 93.1314]])
+2222 tensor([[-1133.3525],
+        [-1026.7209],
+        [-1126.5084]], device='cuda:0', grad_fn=<SubBackward0>)
+epoch 1,  actor_loss: -4926.0684,  critic_loss: 12654751.0000, cost_time: 0.3409, best_solution: 0,od: 5.3300, eqity: 4.3088,rad: 18.1553
+tensor([76.6183], device='cuda:0') tensor([76.5530], device='cuda:0')
+1111 tensor([[98.9663],
+        [97.3167],
+        [93.1314]])
+2222 tensor([[177.4868],
+        [157.1386],
+        [167.0132]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[ 99.8321],
+        [100.0000],
+        [ 93.1314]])
+2222 tensor([[177.4868],
+        [157.1386],
+        [167.0132]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[100.0000],
+        [ 98.8151],
+        [ 93.1314]])
+2222 tensor([[177.4868],
+        [157.1386],
+        [167.0132]], device='cuda:0', grad_fn=<SubBackward0>)
+1111 tensor([[99.9038],
+        [99.2535],
+        [93.1314]])
+2222 tensor([[177.4868],
+        [157.1386],
+        [167.0132]], device='cuda:0', grad_fn=<SubBackward0>)
+Traceback (most recent call last):
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 802, in <module>
+    train_vrp(args)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 672, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "/home/liqing/MORL/Metro-Line/metro.py", line 446, in train
+    actor_loss.backward()
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/liqing/anaconda3/envs/morl/lib/python3.10/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

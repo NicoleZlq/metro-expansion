@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 802, in <module>
+    train_vrp(args)
+  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 675, in train_vrp
+    train(actor, critic, allowed_station, static_size=STATIC_SIZE, **kwargs)
+  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro.py", line 266, in train
+    price_matrix = metro_vrp.build_grid_price(args.path_house, args.grid_x_max, args.grid_y_max)
+  File "e:\UMstudy\Paper manu\part C\Metro-Line\metro_vrp.py", line 1075, in build_grid_price
+    f = open(path_house, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\UMstudy\\Paper manu\\part C\\Metro-Line/index_average_price_dyan.txt'

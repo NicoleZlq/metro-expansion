@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.0",
+    "heartbeatAt": "2024-08-16T06:11:41.108582",
+    "startedAt": "2024-08-16T06:11:40.135195",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "e:\\UMstudy\\Paper manu\\part C\\Metro-Line\\metro.py",
+    "codePathLocal": "metro.py",
+    "codePath": "metro.py",
+    "git": {
+        "remote": "git@github.com:NicoleZlq/Metro-Line.git",
+        "commit": "d3eb87825d7b71f91fe72031e8347d1fc173b07b"
+    },
+    "email": "um.zhangliqing@gmail.com",
+    "root": "E:/UMstudy/Paper manu/part C/Metro-Line",
+    "host": "DESKTOP-HD5QQLL",
+    "username": "liqing zhang",
+    "executable": "E:\\anaconda\\envs\\skip\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3600.0,
+        "min": 0.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.0,
+            "min": 0.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.3867149353027,
+            "used": 318.16396713256836
+        }
+    },
+    "memory": {
+        "total": 15.866817474365234
+    }
+}
