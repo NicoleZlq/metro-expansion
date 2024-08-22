@@ -19,7 +19,7 @@ def process_file(input_file_path, output_file_path):
             a = int(index1)
             b = int(index2)
             if  361<a<422:
-                index1 = 41
+                index1 = 40
             if 440<b<550:
                 index2 = 120
             

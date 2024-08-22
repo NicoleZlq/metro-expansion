@@ -512,12 +512,12 @@ def plot_training(result_path):
 
 
 
-# index_x, index_y, od_matrix = generate_od_matrix(grid_num, od_index_path)
+index_x, index_y, od_matrix = generate_od_matrix(grid_num, od_index_path)
 
 
-# price_matrix = build_grid_price(price_path)
+price_matrix = build_grid_price(price_path)
 
-# plot_heatmap(index_x, index_y, od_matrix, price_matrix)
+plot_heatmap(index_x, index_y, od_matrix, price_matrix)
 
 
 

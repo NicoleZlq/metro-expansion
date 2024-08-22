@@ -418,6 +418,8 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
                         "reward/satified OD demand": average_od,
                         "reward/social equity": average_Ac,
                         "reward/radiation accessibility": average_rad,
+                        "loss/critic_loss": critic_loss.item(),
+                        "loss/actor_loss": actor_loss.item(),
                     })
     
         average_reward_list.append(average_reward.half().item())
@@ -451,9 +453,8 @@ def train(actor, critic, allowed_station, train_data, reward_fn,
         end = time.time()
         cost_time = end - start
 
-        print('epoch %d, cost_time: %2.4f, best_solution: %s,od: %2.4f, eqity: %2.4f,rad: %2.4f'
-              % (epoch,  cost_time, best_reward.tolist(),average_od, average_Ac, average_rad))
-
+        print('epoch %d,  actor_loss: %2.4f,  critic_loss: %2.4f, cost_time: %2.4f, best_solution: %s,od: %2.4f, eqity: %2.4f,rad: %2.4f'
+              % (epoch,  actor_loss.item(), critic_loss.item(), cost_time, best_reward.tolist(),average_od, average_Ac, average_rad))
 
         torch.cuda.empty_cache() # reduce memory
 
@@ -714,7 +715,7 @@ if __name__ == '__main__':
      parser.add_argument('--dropout', default=0.1, type=float)
      parser.add_argument('--layers', dest='num_layers', default=1, type=int)
     
-     parser.add_argument('--train_size',default=10, type=int)   # similar to batch size
+     parser.add_argument('--train_size',default=256, type=int)   # similar to batch size
     
      parser.add_argument('--exist_line_num', default=2, type=int)
      parser.add_argument('--epoch_max', default=4000, type=int) # the number of total epoch

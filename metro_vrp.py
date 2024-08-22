@@ -764,8 +764,8 @@ def agent_exist_line_pair(tour_idx, agent_grid_list, per_line_full_tensor, per_l
                 for j in per_line_station_list:
                     if j not in interaction_index_list:
                         per_od_pair = []
-                        per_od_pair.append(i)
                         per_od_pair.append(j)
+                        per_od_pair.append(i)
                         satisfied_od_pair.append(per_od_pair)
 
     return satisfied_od_pair # for each element: the agent station is the first

@@ -287,32 +287,7 @@ class DRL4Metro(nn.Module):
         tour_idx, tour_logp = [], []
         max_steps = sequence_size if self.mask_fn is None else station_num_lim
 
-      
-         #   agent_grids = self.v_to_g_fn(ptr.data[0])
-            # ptr = torch.tensor([specify_original_station]).to(device)
-            # tour_idx.append(ptr.data.unsqueeze(1))
-            # # added the first specific station
-            
-            # exist_agent_last_grid = agent_grids.view(1, 2)
-            # agent_current_index = ptr.data.cpu().numpy()[0]
-            # dynamic = self.update_fn(dynamic, agent_current_index)   # dynamic.requires_grad = False
-            # dynamic_hidden = self.dynamic_encoder(dynamic)
 
-
-            # self.direction_vector, vector_index_allow = self.vector_allow_fn(agent_current_index, agent_grids, exist_agent_last_grid, self.direction_vector)
-            # vector_index_allow = torch.tensor(list(set(allowed) & set(vector_index_allow))).to(device)
-            # mask = self.mask_fn(vector_index_allow).detach()
-
-            # mask = torch.zeros(batch_size, sequence_size, device=device)
-            # label = torch.ones(batch_size, sequence_size, device=device)
-            # index = torch.tensor(allowed).to(device).unsqueeze(0)
-            # mask = mask.scatter_(1,index, label)
-
-
-        # Static elements only need to be processed once, and can be used across
-        # all 'pointing' iterations. When / if the dynamic elements change,
-        # their representations will need to get calculated again.
-        static_hidden = self.static_encoder(static) #static: Array of size (batch_size, feats, num_cities)
         dynamic_hidden = self.dynamic_encoder(dynamic)
         
         last_hh = torch.zeros((batch_size,dynamic_hidden.size()[1]),device=device,requires_grad= True)      # batch*beam x hidden_size
